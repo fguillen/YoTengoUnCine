@@ -1,0 +1,18 @@
+/* LAYOUT */
+
+#wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  background-image: url("../img/background-film.png"), url("../img/background-grey.jpg");
+  background-position: right top, left top;
+  background-repeat: no-repeat, repeat-x;
+}
+
+
+
+/* HOME */
+
+#player {
+  width: 640px;
+  height: 390px;
+}

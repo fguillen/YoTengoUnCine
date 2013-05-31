@@ -1,0 +1,9 @@
+<% title "Items" %>
+
+<ul>
+  <% @items.each do |item| %>
+    <li><%= link_to item.title, [:front, item] %></li>
+  <% end %>
+</ul>
+
+<%= will_paginate @items %>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= render "layouts/front/header" %>
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <header id="header">
+        <div class="container">
+          <div class="menu">
+            <ul>
+              <li><%= link_to "Hazte socio", "#hazte_socio" %></li>
+              <li><%= link_to "Apadrina una butaca", "#apadrina" %></li>
+              <li><%= link_to "Cinecitarios", "#cinecitarios" %>Cinecitarios</li>
+            </ul>
+          </div>
+
+          <div class="languages">
+            <ul>
+              <li><%= link_to "español", "#espanol" %></li>
+              <li><%= link_to "catalá", "#catala" %></li>
+            </ul>
+          </div>
+
+          <div class="social_links">
+            <ul>
+              <li><%= link_to "facebook", "#facebook", :class => "facebook" %></li>
+              <li><%= link_to "twitter", "#twitter", :class => "twitter" %></li>
+              <li><%= link_to "google", "#google", :class => "google" %></li>
+            </ul>
+          </div>
+
+          <h1>Yo tengo un cine</h1>
+        </div>
+      </header>
+
+      <div id="content" class="container">
+        <h1 class="page-title"><%= yield(:title) %></h1>
+        <%= yield %>
+      </div>
+
+      <footer id="footer">
+        <div class="container">
+          <div class="copy_right">
+          </div>
+
+          <div class="menu">
+            Colaboradores:
+            <ul>
+              <li><%= link_to "Logo", "#logo" %></li>
+              <li><%= link_to "Logo", "#logo" %></li>
+              <li><%= link_to "Logo", "#logo" %></li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="span4">
+              <ul>
+                <li><%= link_to "Items", :front_items %></li>
+                <li><%= link_to "About", front_page_path("about") %></li>
+                <li><%= link_to "Login", :admin_login %></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div><!-- wrapper -->
+
+    <%= render "shared/analytics" %>
+  </body>
+</html>
+

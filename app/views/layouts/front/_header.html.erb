@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<title>YoTengoUnCine | <%= content_for?(:title) ? yield(:title) : "" %></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" type="image/jpeg" href="/assets/app/front/img/favicon.jpg">
+
+<meta name="description" content="YoTengoUnCine official website">
+<meta name="keywords" content="YoTengoUnCine">
+<meta http-equiv="content-language" content="en">
+
+<meta name="copyright" content="YoTengoUnCine">
+<meta name="author" content="YoTengoUnCine">
+<meta name="Distribution" content="Global">
+<meta name="Rating" content="General">
+<meta name="Robots" content="INDEX,FOLLOW">
+
+
+<%= javascript_include_tag "/assets/vendor/jquery/jquery.js" %>
+
+<!-- application -->
+<%= stylesheet_link_tag "/assets/app/front/css/reset.css", :media => "all" %>
+<%= stylesheet_link_tag "/assets/app/front/css/front.css", :media => "all" %>
+<%= javascript_include_tag "/assets/app/front/js/front.js" %>
+
+<%= csrf_meta_tag %>
+<%= yield(:head) %>

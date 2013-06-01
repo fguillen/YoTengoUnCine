@@ -19,6 +19,10 @@ body {
   color: #DB333A;
 }
 
+strong {
+  font-weight: bold;
+}
+
 p {
   line-height: 1.2em;
   margin-bottom: 1em;
@@ -35,6 +39,10 @@ a:hover {
 
 #wrapper.home {
   background-image: url("../img/background-popcorn.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
+}
+
+#wrapper.cinecitarios {
+  background-image: url("../img/background-hucha.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
 }
 
 #wrapper {
@@ -175,6 +183,9 @@ a:hover {
 /* HOME:home_menu */
 #home_menu {
   margin-top: 40px;
+  /*background-image: url("../img/opc-sombra.png");*/
+  background-position: right top;
+  background-repeat: 20px repeat-x;
 }
 
 #home_menu .item {
@@ -221,3 +232,100 @@ a:hover {
   margin-bottom: 10px;
 }
 
+
+/* CINECITARIOS */
+
+/*#cinecitarios .badges div {
+  border: 1px solid black;
+  box-sizing: border-box;
+}*/
+
+#cinecitarios {
+  position: relative;
+}
+
+#cinecitarios .image_decoration {
+  width: 120px;
+  height: 120px;
+  background-image: url("../img/opc-cinecitarios.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -55px;
+  right: 0px;
+}
+
+#cinecitarios h2 {
+  font-family: "Arbutus Slab", serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #DB333A;
+  margin-bottom: 15px;
+}
+
+#cinecitarios .badges {
+  color: white;
+  text-align: center;
+}
+
+#cinecitarios .badges li {
+  background-image: url("../img/cinecitarios-ticket-bg.png");
+  width: 305px;
+  height: 160px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#cinecitarios .badges .price {
+  width: 132px;
+  height: 116px;
+  float: left;
+  padding-top: 21px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#cinecitarios .badges .price .number {
+  font-family: "Arbutus Slab", serif;
+  font-size: 60px;
+  font-weight: bold;
+  display: block;
+}
+
+#cinecitarios .badges .text {
+  width: 173px;
+  height: 116px;
+  float: right;
+  font-size: 14px;
+  padding: 14px 24px 0px 10px;
+  box-sizing: border-box;
+}
+
+
+
+#cinecitarios .badges .text h3 {
+  font-family: "Arbutus Slab", serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#cinecitarios .badges .link {
+  font-family: "Arbutus Slab", serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+#cinecitarios .badges .link a {
+  color: white;
+}
+
+#cinecitarios h4 {
+  font-family: "Arbutus Slab", serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

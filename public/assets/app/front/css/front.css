@@ -1,11 +1,165 @@
+/* INCLUDES */
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Arbutus+Slab);
+
 /* LAYOUT */
+
+body {
+  background-color: #FAF8F9;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+}
+
+.clear { clear: both;}
+
+.big {
+  font-family: "Arbutus Slab", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #DB333A;
+}
+
+p {
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#wrapper.home {
+  background-image: url("../img/background-popcorn.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
+}
 
 #wrapper {
   width: 1400px;
   margin: 0 auto;
-  background-image: url("../img/background-film.png"), url("../img/background-grey.jpg");
-  background-position: right top, left top;
-  background-repeat: no-repeat, repeat-x;
+  background-position: left top, right top, left top;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  padding: 20px 210px 40px 210px;
+  box-sizing: border-box;
+}
+
+
+.right_column {
+  width: 640px;
+  margin-left: 340px;
+}
+
+
+/* HEADER */
+
+#header {
+  position: relative;
+}
+
+#header h2{
+  width: 150px;
+  height: 25px;
+  background-image: url("../img/logo-cineciutat.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  text-indent: -9999px;
+}
+
+#header h1{
+  height: 70px;
+  background: url("../img/logo-yotengouncine-esp.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  text-indent: -9999px;
+  margin-top: 15px;
+}
+
+/* HEADER:menu */
+
+#header .menu {
+  color: #666666;
+  margin-top: 15px;
+}
+
+#header .menu a {
+  font-family: "Arbutus Slab", serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #DB333A;
+}
+
+#header .menu li {
+  display: inline;
+}
+
+#header .menu li+li:before {
+  content: "/ ";
+}
+
+/* HEADER:languages */
+
+#header .languages {
+  position: absolute;
+  top: 41px;
+  right: 0px;
+}
+
+#header .languages li {
+  display: inline;
+}
+
+#header .languages li+li:before {
+  content: "・ ";
+}
+
+/* HEADER:social */
+
+#header .social {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#header .social li {
+  display: inline;
+}
+
+/* FOOTER */
+
+#footer {
+  background-image: url("../img/footer-line.png");
+  background-repeat: repeat-x;
+  background-position: left top;
+  margin-top: 40px;
+  padding: 10px 0 0 0;
+  box-sizing: border-box;
+}
+
+#footer .copyright {
+  font-size: 10px;
+  color: #666;
+  float: left;
+}
+
+#footer .menu {
+  font-size: 10px;
+  color: #666;
+  float: right;
+}
+
+#footer .menu ul {
+  display: inline;
+}
+
+#footer .menu li {
+  display: inline;
+  font-family: "Arbutus Slab", serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 12px;
 }
 
 
@@ -15,4 +169,55 @@
 #player {
   width: 640px;
   height: 390px;
+  margin-bottom: 20px;
 }
+
+/* HOME:home_menu */
+#home_menu {
+  margin-top: 40px;
+}
+
+#home_menu .item {
+  float: left;
+  width: 326px;
+  height: 284px;
+  padding: 120px 80px 10px 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#home_menu .item a:hover {
+  text-decoration: none;
+}
+
+#home_menu .item a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#home_menu .item.member {
+  background-image: url("../img/opc-haztesocio.png");
+}
+
+#home_menu .item.chair {
+  background-image: url("../img/opc-apadrinabutaca.png");
+}
+
+#home_menu .item.cinecitario {
+  background-image: url("../img/opc-cinecitarios.png");
+}
+
+#home_menu .item {
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 44%;
+}
+
+#home_menu h1 {
+  font-family: "Arbutus Slab", serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+

@@ -1,4 +1,6 @@
-<div id="home">
+<% content_for :section, "home" %>
+
+<div id="home" class="right_column">
 
   <p>
     Quizás nunca viajes a las Seychelles. Igual tampoco saldrás de copas con cracks del deporte, ni
@@ -46,4 +48,34 @@
     di ante todos y en voz alta <strong>"Yo tengo un cine"</strong>, siéntete orgulloso de preservar algo bello
     y forma parte de esta iniciativa única.
   </p>
+</div>
+
+<div id="home_menu">
+  <div class="item member">
+    <h1>Hazte socio</h1>
+    <p>¿Quieres un cine? Entonces, ten un cine... Únete a nuestra comunidad de apasionados del cine.</p>
+    <p>Benefíciate de sus ventajas, descuentos y disfruta de grandes películas.</p>
+    <%= link_to "Hacerme socio >", "#socio", :class => "button" %>
+  </div>
+
+  <div class="item chair">
+    <h1>Apadrina una butaca</h1>
+    <p>
+      Son ellas. Compañeras silenciosas que te han respaldado en infinidad de aventuras.
+      En ellas te has reído, las has estrujado cuando tenías miedo, han soportado tus llantos...
+      <strong>¿No crees que ya va siendo hora de agradecérselo?</strong>
+    </p>
+    <%= link_to "Apadrinar butaca >", "#butaca", :class => "button" %>
+  </div>
+
+  <div class="item cinecitario">
+    <h1>Cinecitario</h1>
+    <p>
+      dícese de aquella persona que cuyos principios vitales pasan por contribuir a
+      la causa de <strong>CineCiutat</strong> por encima otros caprichos sea cual sea su índole o naturaleza.
+    </p>
+    <%= link_to "Hacer donación >", "#donación", :class => "button" %>
+  </div>
+
+  <div class="clear"></div>
 </div>

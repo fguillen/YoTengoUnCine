@@ -5,15 +5,17 @@
   </head>
 
   <body>
-    <div id="wrapper">
+    <div id="wrapper" class="<%= yield :section %>">
 
       <header id="header">
-        <div class="container">
+        <div class="container right_column">
+          <h2>CineCiutat</h2>
+
           <div class="menu">
             <ul>
               <li><%= link_to "Hazte socio", "#hazte_socio" %></li>
               <li><%= link_to "Apadrina una butaca", "#apadrina" %></li>
-              <li><%= link_to "Cinecitarios", "#cinecitarios" %>Cinecitarios</li>
+              <li><%= link_to "Cinecitarios", "#cinecitarios" %></li>
             </ul>
           </div>
 
@@ -24,16 +26,18 @@
             </ul>
           </div>
 
-          <div class="social_links">
+          <div class="social">
             <ul>
-              <li><%= link_to "facebook", "#facebook", :class => "facebook" %></li>
-              <li><%= link_to "twitter", "#twitter", :class => "twitter" %></li>
-              <li><%= link_to "google", "#google", :class => "google" %></li>
+              <li><%= link_to "facebook", "#facebook", :class => "zocial icon facebook" %></li>
+              <li><%= link_to "twitter", "#twitter", :class => "zocial icon twitter" %></li>
+              <li><%= link_to "google", "#google", :class => "zocial icon google" %></li>
             </ul>
           </div>
 
           <h1>Yo tengo un cine</h1>
         </div>
+
+        <div class="clear"></div>
       </header>
 
       <div id="content" class="container">
@@ -43,8 +47,7 @@
 
       <footer id="footer">
         <div class="container">
-          <div class="copy_right">
-          </div>
+          <div class="copyright">#Yotengouncine 2013</div>
 
           <div class="menu">
             Colaboradores:
@@ -55,16 +58,9 @@
             </ul>
           </div>
 
-          <div class="row">
-            <div class="span4">
-              <ul>
-                <li><%= link_to "Items", :front_items %></li>
-                <li><%= link_to "About", front_page_path("about") %></li>
-                <li><%= link_to "Login", :admin_login %></li>
-              </ul>
-            </div>
-          </div>
         </div>
+
+        <div class="clear"></div>
       </footer>
     </div><!-- wrapper -->
 

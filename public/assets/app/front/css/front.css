@@ -45,6 +45,10 @@ a:hover {
   background-image: url("../img/background-hucha.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
 }
 
+#wrapper.chair_support {
+  background-image: url("../img/background-butaca.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
+}
+
 #wrapper {
   width: 1400px;
   margin: 0 auto;
@@ -58,8 +62,25 @@ a:hover {
 .right_column {
   width: 640px;
   margin-left: 340px;
+  position: relative;
 }
 
+/* COMMON */
+
+.right_column h2 {
+  font-family: "Arbutus Slab", serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #DB333A;
+  margin-bottom: 15px;
+}
+
+.right_column img.image_decoration {
+  width: 120px;
+  position: absolute;
+  top: -55px;
+  right: 0px;
+}
 
 /* HEADER */
 
@@ -83,6 +104,7 @@ a:hover {
   background-position: left top;
   text-indent: -9999px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* HEADER:menu */
@@ -244,24 +266,11 @@ a:hover {
   position: relative;
 }
 
-#cinecitarios .image_decoration {
+img.image_decoration {
   width: 120px;
-  height: 120px;
-  background-image: url("../img/opc-cinecitarios.png");
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-size: contain;
   position: absolute;
   top: -55px;
   right: 0px;
-}
-
-#cinecitarios h2 {
-  font-family: "Arbutus Slab", serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #DB333A;
-  margin-bottom: 15px;
 }
 
 #cinecitarios .badges {
@@ -328,4 +337,18 @@ a:hover {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+/* CHAIR_SUPPORT */
+
+#chair_support form {
+  margin-top: 20px;
+  background-image: url("../img/tramado-bg.gif");
+  padding: 20px;
+}
+
+#chair_support form input[type="text"] {
+  padding: 8px;
+  width: 388px;
+
 }

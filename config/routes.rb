@@ -8,6 +8,7 @@ YoTengoUnCine::Application.routes.draw do
     resources :donations, :only => [:create] do
       get :confirm, :on => :member
       get :cancel, :on => :collection
+      post :ipn, :on => :member
     end
   end
 

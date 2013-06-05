@@ -1,6 +1,9 @@
 class Front::DonationsController < Front::FrontController
+  skip_before_filter :verify_authenticity_token, :only => [:ipn]
+
   def create
-    donation = Donation.create!(params[:donation])
+    donation = Donation.build_by_kind(params[:donation][:kind])
+    donation.save!
 
     url =
       PaypalWrapper.get_authorization_url(
@@ -16,9 +19,17 @@ class Front::DonationsController < Front::FrontController
   def confirm
     donation = Donation.find(params[:id])
     donation.set_authorize_params(request.url)
-    donation.pay
+    donation.confirm(ipn_front_donation_url(donation))
 
     redirect_to front_page_path("home"), :notice => "Donacion aceptada"
+  end
+
+  def ipn
+    donation = Donation.find(params[:id])
+    donation.set_ipn_params(params)
+    donation.pay
+
+    render :text => "ok"
   end
 
   def cancel

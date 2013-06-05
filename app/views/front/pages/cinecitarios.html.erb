@@ -45,9 +45,8 @@
         </div>
         <div class="clear"></div>
         <div class="link">
-          <%= form_for [:front, Donation.new(:amount => 15, :description => "Donacion CineCiutat 15e")] do |f| %>
-            <%= f.text_field :amount %>
-            <%= f.text_field :description %>
+          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_15])] do |f| %>
+            <%= f.text_field :kind %>
             <%= f.submit "Hacer donacion >" %>
             <%= link_to "Hacer donacion >", "#donation" %>
           <% end %>

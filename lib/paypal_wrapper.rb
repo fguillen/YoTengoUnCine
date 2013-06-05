@@ -38,7 +38,7 @@ class PaypalWrapper
     end
   end
 
-  def self.pay(payer_id, token, amount)
+  def self.pay(payer_id, token, amount, ipn_url)
     opts =
       client.build_do_express_checkout_payment(
         :DoExpressCheckoutPaymentRequestDetails => {
@@ -49,7 +49,8 @@ class PaypalWrapper
             :OrderTotal => {
               :currencyID => "EUR",
               :value => amount
-            }
+            },
+            :NotifyURL => ipn_url
           }]
         }
       )

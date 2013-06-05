@@ -1,4 +1,4 @@
-if !Rails.env.development?
+if false #!Rails.env.development?
   YoTengoUnCine::Application.config.middleware.use(
     ExceptionNotifier,
     :email_prefix => "[YoTengoUnCine] ",

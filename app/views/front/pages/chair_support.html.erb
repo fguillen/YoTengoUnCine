@@ -24,10 +24,11 @@
 
 
   <div class="form">
-    <form>
-      <input type="text", placeholder="Nombre del padrino" />
-      <input type="submit" value="Apadrinar butaca >", class="button" />
-    </form>
+    <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:chair_support])] do |f| %>
+      <%= f.hidden_field :kind %>
+      <%= f.text_field :chair_name %>
+      <%= f.submit "Apadrinar butaca >", :class => "button" %>
+    <% end %>
   </div>
 
 </div>

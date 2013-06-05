@@ -3,6 +3,7 @@ class Front::DonationsController < Front::FrontController
 
   def create
     donation = Donation.build_by_kind(params[:donation][:kind])
+    donation.chair_name = params[:donation][:chair_name]
     donation.save!
 
     url =

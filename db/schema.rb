@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(:version => 20130604203804) do
     t.decimal  "amount",                     :precision => 8, :scale => 2, :null => false
     t.string   "kind",                                                     :null => false
     t.string   "transaction_id"
+    t.string   "chair_name"
     t.string   "payer_email"
     t.string   "payer_address_street"
     t.string   "payer_address_zip"

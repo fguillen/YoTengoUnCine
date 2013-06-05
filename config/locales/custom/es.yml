@@ -28,6 +28,11 @@ es:
       text: Tiene palomitas más crujientes que los demás
       description: Donación CineCiutat de 50€
 
+    chair_support:
+      title: Apadrinar una butaca
+      text: Apadrinas una butaca por todo un año
+      description: Apadrinar una butaca CineCiutat 180€/año
+
   views:
     cinecitarios:
       title: Cinecitarios

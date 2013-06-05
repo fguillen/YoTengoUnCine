@@ -11,6 +11,7 @@ class CreateDonations < ActiveRecord::Migration
       t.decimal :amount, :precision => 8, :scale => 2, :null => false
       t.string :kind, :null => false
       t.string :transaction_id
+      t.string :chair_name
 
       t.string :payer_email
       t.string :payer_address_street

@@ -80,6 +80,10 @@ class Donation < ActiveRecord::Base
       donation.amount = 50
       donation.description = I18n.t("donations.donation_50.description")
 
+    when Donation::KINDS[:chair_support]
+      donation.amount = 180
+      donation.description = I18n.t("donations.chair_support.description")
+
     else
       raise Exception, "Donation kind not supported [#{kind}]"
     end

@@ -64,9 +64,22 @@ class Donation < ActiveRecord::Base
     donation.kind = kind
 
     case kind
+    when Donation::KINDS[:donation_5]
+      donation.amount = 5
+      donation.description = I18n.t("donations.donation_15.description")
+
     when Donation::KINDS[:donation_15]
-      donation.amount = 15
-      donation.description = "Donacion CineCiutat 15e"
+      donation.amount = 5
+      donation.description = I18n.t("donations.donation_15.description")
+
+    when Donation::KINDS[:donation_30]
+      donation.amount = 30
+      donation.description = I18n.t("donations.donation_30.description")
+
+    when Donation::KINDS[:donation_50]
+      donation.amount = 50
+      donation.description = I18n.t("donations.donation_50.description")
+
     else
       raise Exception, "Donation kind not supported [#{kind}]"
     end

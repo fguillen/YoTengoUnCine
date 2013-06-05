@@ -6,3 +6,39 @@ es:
     previous_label: "&#8592; Anterior"
     next_label: "Siguiente &#8594;"
     page_gap: "&hellip;"
+
+  donations:
+    donation_5:
+      title: Acomodador
+      text: Tiene palomitas más crujientes que los demás
+      description: Donación CineCiutat de 5€
+
+    donation_15:
+      title: Acomodador
+      text: Tiene palomitas más crujientes que los demás
+      description: Donación CineCiutat de 15€
+
+    donation_30:
+      title: Acomodador
+      text: Tiene palomitas más crujientes que los demás
+      description: Donación CineCiutat de 30€
+
+    donation_50:
+      title: Acomodador
+      text: Tiene palomitas más crujientes que los demás
+      description: Donación CineCiutat de 50€
+
+  views:
+    cinecitarios:
+      title: Cinecitarios
+      text: |
+        Dícese de aquella persona que cuyos principios vitales pasan por
+        contribuir a la causa de **CineCiutat** por encima otros caprichos sea cual
+        sea su índole o naturaleza.
+
+        **Existen distintas categorías de Cinecitarios según su aportación:**
+
+
+
+
+

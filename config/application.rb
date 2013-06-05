@@ -28,8 +28,8 @@ module YoTengoUnCine
     config.autoload_paths += %W(#{config.root}/lib)
 
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
-    config.i18n.default_locale = :en
-    config.i18n.available_locales = [:en, :es]
+    config.i18n.default_locale = :es
+    config.i18n.available_locales = [:es, :ca]
 
     config.generators do |g|
       g.orm             :active_record

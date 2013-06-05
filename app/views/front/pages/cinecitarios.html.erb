@@ -4,96 +4,34 @@
   <div class="image_decoration"></div>
   <%= image_tag "/assets/app/front/img/opc-cinecitarios.png", :class => "image_decoration" %>
 
-  <h2>Cinecitarios</h2>
+  <h2><%= t("views.cinecitarios.title") %></h2>
 
-  <p>
-    Dícese de aquella persona que cuyos principios vitales pasan por
-    contribuir a la causa de <strong>CineCiutat</strong> por encima otros caprichos sea cual
-    sea su índole o naturaleza.
-  </p>
-
-  <p>
-    <strong>Existen distintas categorías de Cinecitarios según su aportación:</strong>
-  </p>
+  <%= t("views.cinecitarios.text").to_md %>
 
   <ul class="badges">
-    <li>
-      <div>
-        <div class="price">
-          <span class="number">5</span>
-          €uros
+    <% [5, 15, 30, 50].each do |donation_amount| %>
+      <li>
+        <div>
+          <div class="price">
+            <span class="number"><%= donation_amount %></span>
+            €uros
+          </div>
+          <div class="text">
+            <h3><%= t("donations.donation_#{donation_amount}.title") %></h3>
+            <p><%= t("donations.donation_#{donation_amount}.text") %></p>
+          </div>
+          <div class="clear"></div>
+          <div class="link">
+            <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:"donation_#{donation_amount}"])], :html => { :id  => "form_donation_#{donation_amount}" } do |f| %>
+              <%= f.hidden_field :kind %>
+              <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_#{donation_amount}').submit()" %>
+            <% end %>
+          </div>
         </div>
-        <div class="text">
-          <h3>Acomodador</h3>
-          <p>Tiene palomitas más crujientes que los demás</p>
-        </div>
-        <div class="clear"></div>
-        <div class="link">
-          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_5])], :html => { :id  => "form_donation_5" } do |f| %>
-            <%= f.hidden_field :kind %>
-            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_5').submit()" %>
-          <% end %>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div>
-        <div class="price">
-          <span class="number">15</span>
-          €uros
-        </div>
-        <div class="text">
-          <h3>Proyectista</h3>
-          <p>Se lleva un obsequio de CineCiutat</p>
-        </div>
-        <div class="clear"></div>
-        <div class="link">
-          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_15])], :html => { :id  => "form_donation_15" } do |f| %>
-            <%= f.hidden_field :kind %>
-            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_15').submit()" %>
-          <% end %>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div>
-        <div class="price">
-          <span class="number">30</span>
-          €uros
-        </div>
-        <div class="text">
-          <h3>Gerente</h3>
-          <p>Puede llevarse diversos productos Filmin</p>
-        </div>
-        <div class="clear"></div>
-        <div class="link">
-          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_30])], :html => { :id  => "form_donation_30" } do |f| %>
-            <%= f.hidden_field :kind %>
-            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_30').submit()" %>
-          <% end %>
-        </div>
-      </div>
-    </li>
-    <li>
-      <div>
-        <div class="price">
-          <span class="number">50</span>
-          €uros
-        </div>
-        <div class="text">
-          <h3>Productor</h3>
-          <p>No sólo es gerente de un cine sino que le obsequiamos con productos Filmin</p>
-        </div>
-        <div class="clear"></div>
-        <div class="link">
-          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_50])], :html => { :id  => "form_donation_50" } do |f| %>
-            <%= f.hidden_field :kind %>
-            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_50').submit()" %>
-          <% end %>
-        </div>
-      </div>
-    </li>
+      </li>
+    <% end %>
   </ul>
+
   <div class="clear"></div>
 
   <h4>¿Cómo realizar las aportaciones?</h4>

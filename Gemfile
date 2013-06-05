@@ -18,6 +18,7 @@ gem "lograge" # log cleaning
 gem "acts-as-taggable-on"
 gem "log_book", :git => "git@github.com:fguillen/LogBook.git"
 gem "style_palette", :git => "git://github.com/fguillen/StylePalette.git"
+gem "paypal-sdk-merchant"
 
 group :development do
   gem "nifty-generators"

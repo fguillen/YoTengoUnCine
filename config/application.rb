@@ -25,6 +25,8 @@ module YoTengoUnCine
     config.time_zone = "UTC"
     config.active_record.default_timezone = :utc
 
+    config.autoload_paths += %W(#{config.root}/lib)
+
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :en
     config.i18n.available_locales = [:en, :es]

@@ -4,6 +4,11 @@ YoTengoUnCine::Application.routes.draw do
   namespace :front do
     resources :pages, :only => [:show]
     resources :items, :only => [:index, :show]
+
+    resources :donations, :only => [:create] do
+      get :confirm, :on => :member
+      get :cancel, :on => :collection
+    end
   end
 
   namespace :admin do

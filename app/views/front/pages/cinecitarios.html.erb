@@ -29,7 +29,10 @@
         </div>
         <div class="clear"></div>
         <div class="link">
-          <%= link_to "Hacer donación >", "#donation" %>
+          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_5])], :html => { :id  => "form_donation_5" } do |f| %>
+            <%= f.hidden_field :kind %>
+            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_5').submit()" %>
+          <% end %>
         </div>
       </div>
     </li>
@@ -45,10 +48,9 @@
         </div>
         <div class="clear"></div>
         <div class="link">
-          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_15])] do |f| %>
-            <%= f.text_field :kind %>
-            <%= f.submit "Hacer donacion >" %>
-            <%= link_to "Hacer donacion >", "#donation" %>
+          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_15])], :html => { :id  => "form_donation_15" } do |f| %>
+            <%= f.hidden_field :kind %>
+            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_15').submit()" %>
           <% end %>
         </div>
       </div>
@@ -65,14 +67,17 @@
         </div>
         <div class="clear"></div>
         <div class="link">
-          <%= link_to "Hacer donación >", "#donation" %>
+          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_30])], :html => { :id  => "form_donation_30" } do |f| %>
+            <%= f.hidden_field :kind %>
+            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_30').submit()" %>
+          <% end %>
         </div>
       </div>
     </li>
     <li>
       <div>
         <div class="price">
-          <span class="number">5</span>
+          <span class="number">50</span>
           €uros
         </div>
         <div class="text">
@@ -81,7 +86,10 @@
         </div>
         <div class="clear"></div>
         <div class="link">
-          <%= link_to "Hacer donación >", "#donation" %>
+          <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:donation_50])], :html => { :id  => "form_donation_50" } do |f| %>
+            <%= f.hidden_field :kind %>
+            <%= link_to "Hacer donacion >", "#donation", :onclick => "$('#form_donation_50').submit()" %>
+          <% end %>
         </div>
       </div>
     </li>

@@ -70,6 +70,69 @@ es:
 
       form_button: Apadrinar butaca
 
+    home:
+      text_1: |
+        Quizás nunca viajes a las Seychelles. Igual tampoco saldrás de copas con cracks del deporte, ni
+        vivirás en mansiones con 30 Chihuahuas Pincher miniatura pero… **¡¡¡Tienes un cine!!!**
+
+        Aquí os mostramos los spots de los orgullosos propietarios de **CineCiutat**.
+        Seguro que pronto estaréis entre ellos.
+
+      text_2: |
+        <span class="big">**CineCiutat** es una iniciativa pionera nacida del amor por el séptimo arte de gente de Mallorca.</span>
+
+        El afán de esas personas en impedir que ese cine especial, que conmueve y que es ajeno a lo puramente comercial,
+        desapareciera, consiguió que el **emblemático cine de S'Escorxador**
+        reabriera sus puertas con el nombre de **CineCiutat**
+        tras el cierre del antiguo Renoir.
+
+        A día de hoy, el cine que tantos cinéfilos se empeñaron en conseguir es ya una realidad.
+        **CineCiutat** se ha consolidado como un referente de cine ciudadano, democrático,
+        con películas independientes, de calidad y en V.O.S.E, y ciclos de cine clásico, coloquios
+        con personalidades del mundo del cine, talleres para niños y sesiones familiares, entre otras
+        iniciativas propuestas por los socios de **CineCiutat**.
+
+        Porque en **CineCiutat**, son los socios quienes hacen el cine, quienes eligen, quienes aportan
+        y quienes deciden. Por ello, cada socio puede decir sin complejos **"Yo tengo un cine"**,
+        porque, sin su apoyo y el de todos los demás socios, el cine dejaría de existir; su aportación
+        hace posible **CineCiutat**, por lo que todos y cada uno de los socios tienen,
+        efectivamente, **un cine: el suyo, el que ellos quieran tener**.
+
+        **¿Quieres tú un cine?** ¿Quieres contribuir a salvar la magia, los fotogramas,
+        las BSO y los diálogos que marcaron tu vida y la completaron? Entonces, ten tu cine,
+        di ante todos y en voz alta **"Yo tengo un cine"**, siéntete orgulloso de preservar algo bello
+        y forma parte de esta iniciativa única.
+
+      members_block:
+        title: Hazte socio
+        text: |
+          ¿Quieres un cine? Entonces, ten un cine... Únete a nuestra comunidad de apasionados del cine.
+
+          Benefíciate de sus ventajas, descuentos y disfruta de grandes películas.
+
+        link: Hacerme socio
+
+      chair_support_block:
+        title: Hazte socio
+        text: |
+          Son ellas. Compañeras silenciosas que te han respaldado en infinidad de aventuras.
+          En ellas te has reído, las has estrujado cuando tenías miedo, han soportado tus llantos...
+          **¿No crees que ya va siendo hora de agradecérselo?**
+
+        link: Hacerme socio
+
+      cinecitarios_block:
+        title: Cinecitario
+        text: |
+          Dícese de aquella persona que cuyos principios vitales pasan por contribuir a
+          la causa de **CineCiutat** por encima otros caprichos sea cual sea su índole o naturaleza.
+
+        link: Hacer donación
+
+
+
+
+
 
 
 

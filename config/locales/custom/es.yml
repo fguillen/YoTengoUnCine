@@ -1,12 +1,4 @@
 es:
-  dictionary:
-    welcome: "Bien venido!"
-
-  will_paginate:
-    previous_label: "&#8592; Anterior"
-    next_label: "Siguiente &#8594;"
-    page_gap: "&hellip;"
-
   donations:
     donation_5:
       title: Acomodador
@@ -34,6 +26,14 @@ es:
       description: Apadrinar una butaca CineCiutat 180€/año
 
   views:
+    header:
+      title: YoTengoUnCine
+
+      menu:
+        be_a_member: Hazte socio
+        chair_support: Apadrina una butaca
+        cinecitarios: Cinecitarios
+
     cinecitarios:
       title: Cinecitarios
       text: |
@@ -53,6 +53,8 @@ es:
 
           Puedes acercarte a recoger tu obsequio a las taquillas de CineCiutat en horario comercial,
           con tu DNI y el justificante de pago.
+
+      donation_link: Hacer donación
 
     chair_support:
       title: Apadrina una butaca

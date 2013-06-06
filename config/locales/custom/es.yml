@@ -54,6 +54,23 @@ es:
           Puedes acercarte a recoger tu obsequio a las taquillas de CineCiutat en horario comercial,
           con tu DNI y el justificante de pago.
 
+    chair_support:
+      title: Apadrina una butaca
+      text: |
+          Son ellas. Compañeras silenciosas que te han respaldado en infinidad
+          de aventuras. En ellas te has reído, las has estrujado cuando tenías
+          miedo, han soportado tus llantos... ¿No crees que ya va siendo hora
+          de agradecérselo?
+
+          ### ¡Apadrina una butaca!
+
+          Por 180€ al año, una butaca de CineCiutat llevará tu nombre.
+          Para que puedan seguir siendo cómplices de tus emociones por
+          mucho tiempo.
+
+      form_button: Apadrinar butaca
+
+
 
 
 

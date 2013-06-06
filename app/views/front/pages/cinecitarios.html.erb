@@ -24,7 +24,7 @@
           <div class="link">
             <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:"donation_#{donation_amount}"])], :html => { :id  => "form_donation_#{donation_amount}" } do |f| %>
               <%= f.hidden_field :kind %>
-              <%= link_to "#{t("views.cinecitarios.donation_link")} &gt;", "#donation", :onclick => "$('#form_donation_#{donation_amount}').submit()" %>
+              <%= link_to "#{t("views.cinecitarios.donation_link")} >", "#donation", :onclick => "$('#form_donation_#{donation_amount}').submit()" %>
             <% end %>
           </div>
         </div>
@@ -34,7 +34,7 @@
 
   <div class="clear"></div>
 
-  <h4><%= t "views.cinecitarios.how_to_donate.title" %></h4>
+  <h4><%= t("views.cinecitarios.how_to_donate.title") %></h4>
 
   <%= t("views.cinecitarios.how_to_donate.text").to_md %>
 </div>

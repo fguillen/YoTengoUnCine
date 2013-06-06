@@ -31,3 +31,32 @@
 
   <div class="clear"></div>
 </div>
+
+<div id="thanks" style="display:none;">
+  <div id="thanks_content">
+    <h1>
+      <span class="hide">Yo tengo un cine</span>
+      <%= image_tag "/assets/app/front/img/logo-yotengouncine-esp.png" %>
+    </h1>
+
+    <div class="text">
+      <h2>
+        <span class="hide">Te da las gracias</span>
+        <%= image_tag "/assets/app/front/img/gracias-esp.png" %>
+      </h2>
+
+      <%= t("views.thanks_popup.text").to_md %>
+
+      <div class="links">
+        <%= link_to t("views.thanks_popup.button_close"), "#close", :onclick => "$.facebox.close();", :class => "button" %>
+        <%= link_to t("views.thanks_popup.button_cineciutat"), "http://cineciutat.org", :class => "button" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% if params[:thanks]%>
+  <script>
+    jQuery.facebox({ div: '#thanks' });
+  </script>
+<% end %>

@@ -10,7 +10,8 @@ body {
   font-size: 12px;
 }
 
-.clear { clear: both;}
+.clear { clear: both; }
+.hide { display: none; }
 
 .big {
   font-family: "Arbutus Slab", serif;
@@ -366,3 +367,37 @@ img.image_decoration {
   width: 388px;
   font-size: 14px;
 }
+
+/* THANKS POPUP */
+
+#thanks_content {
+  background-image: url("../img/background-gracias.jpg");
+  background-position: 32px 112px;
+  background-repeat: no-repeat;
+
+  width: 641px;
+  height: 488px;
+
+  position: relative;
+}
+
+#thanks_content h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#thanks_content h2 {
+  margin-bottom: 20px;
+}
+
+#thanks_content .text {
+  width: 288px;
+  margin-left: 286px;
+  margin-top: 40px;
+}
+
+#thanks_content .links {
+  position: absolute;
+  bottom: 50px;
+}
+

@@ -13,7 +13,7 @@
     <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:chair_support])] do |f| %>
       <%= f.hidden_field :kind %>
       <%= f.text_field :chair_name, :placeholder => t("views.chair_support.form_placeholder"), :required => true %>
-      <%= f.submit "#{t("views.chair_support.form_button")} &gt;", :class => "button" %>
+      <%= f.submit "#{t("views.chair_support.form_button")} >", :class => "button" %>
     <% end %>
   </div>
 

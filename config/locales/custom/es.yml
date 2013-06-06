@@ -132,6 +132,20 @@ es:
 
         link: Hacer donación
 
+    thanks_popup:
+      text: |
+        Quisque vestibulum diam non viverra euismod. Aenean dictum, ipsum
+        tristique rhoncus sollicitudin, sapien tellus feugiat erat, sed varius
+        velit magna non lorem. Pellentesque rhoncus libero id mi aliquet, ac
+        auctor lacus euismod.
+
+        Aliquam ut facilisis urna. Quisque tempus est lectus, ullamcorper
+        rutrum augue laoreet quis. Suspendisse potenti. Curabitur sit
+        amet enim mi. Vivamus consectetur congue facilisis.
+
+      button_close: Cerrar
+      button_cineciutat: Ir a Cineciutat
+
 
 
 

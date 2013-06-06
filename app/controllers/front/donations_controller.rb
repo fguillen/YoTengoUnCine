@@ -22,7 +22,7 @@ class Front::DonationsController < Front::FrontController
     donation.set_authorize_params(request.url)
     donation.confirm(ipn_front_donation_url(donation))
 
-    redirect_to front_page_path("home"), :notice => "Donacion aceptada"
+    redirect_to front_page_path("home", :thanks => "yes")
   end
 
   def ipn
@@ -34,6 +34,6 @@ class Front::DonationsController < Front::FrontController
   end
 
   def cancel
-    redirect_to front_page_path("cinecitarios"), :alert => "Donacion cancelada"
+    redirect_to front_page_path("cinecitarios")
   end
 end

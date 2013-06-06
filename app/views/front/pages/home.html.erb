@@ -55,7 +55,7 @@
     <h1>Hazte socio</h1>
     <p>¿Quieres un cine? Entonces, ten un cine... Únete a nuestra comunidad de apasionados del cine.</p>
     <p>Benefíciate de sus ventajas, descuentos y disfruta de grandes películas.</p>
-    <%= link_to "Hacerme socio >", "#socio", :class => "button" %>
+    <%= link_to "Hacerme socio >", "http://socis.cineciutat.org", :class => "button" %>
   </div>
 
   <div class="item chair">
@@ -65,7 +65,7 @@
       En ellas te has reído, las has estrujado cuando tenías miedo, han soportado tus llantos...
       <strong>¿No crees que ya va siendo hora de agradecérselo?</strong>
     </p>
-    <%= link_to "Apadrinar butaca >", "#butaca", :class => "button" %>
+    <%= link_to "Apadrinar butaca >", front_page_path("chair_support"), :class => "button" %>
   </div>
 
   <div class="item cinecitario">
@@ -74,7 +74,7 @@
       dícese de aquella persona que cuyos principios vitales pasan por contribuir a
       la causa de <strong>CineCiutat</strong> por encima otros caprichos sea cual sea su índole o naturaleza.
     </p>
-    <%= link_to "Hacer donación >", "#donación", :class => "button" %>
+    <%= link_to "Hacer donación >", front_page_path("cinecitarios"), :class => "button" %>
   </div>
 
   <div class="clear"></div>

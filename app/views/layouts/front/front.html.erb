@@ -9,32 +9,36 @@
 
       <header id="header">
         <div class="container right_column">
-          <h2>CineCiutat</h2>
+          <%= link_to "http://cineciutat.org" do %>
+            <h2>CineCiutat</h2>
+          <% end %>
 
           <div class="menu">
             <ul>
-              <li><%= link_to "Hazte socio", "#hazte_socio" %></li>
-              <li><%= link_to "Apadrina una butaca", "#apadrina" %></li>
-              <li><%= link_to "Cinecitarios", "#cinecitarios" %></li>
+              <li><%= link_to "Hazte socio", "http://socis.cineciutat.org" %></li>
+              <li class="<%= menu_class(:chair_support) %>"><%= link_to "Apadrina una butaca", front_page_path("chair_support") %></li>
+              <li class="<%= menu_class(:cinecitarios) %>"><%= link_to "Cinecitarios", front_page_path("cinecitarios") %></li>
             </ul>
           </div>
 
           <div class="languages">
             <ul>
-              <li><%= link_to "español", "#espanol" %></li>
-              <li><%= link_to "catalá", "#catala" %></li>
+              <li class="<%= "disabled" if(I18n.locale == :es) %>"><%= link_to "español", url_for(params.merge(:locale => :es)) %></li>
+              <li class="<%= "disabled" if(I18n.locale == :ca) %>"><%= link_to "catala", url_for(params.merge(:locale => :ca)) %></li>
             </ul>
           </div>
 
           <div class="social">
             <ul>
-              <li><%= link_to "facebook", "#facebook", :class => "zocial icon facebook" %></li>
-              <li><%= link_to "twitter", "#twitter", :class => "zocial icon twitter" %></li>
-              <li><%= link_to "google", "#google", :class => "zocial icon google" %></li>
+              <li><%= link_to "facebook", "https://www.facebook.com/CineCiutat", :class => "zocial icon facebook" %></li>
+              <li><%= link_to "twitter", "https://twitter.com/CineCiutat", :class => "zocial icon twitter" %></li>
+              <!-- <li><%= link_to "google", "#google", :class => "zocial icon google" %></li> -->
             </ul>
           </div>
 
-          <h1>Yo tengo un cine</h1>
+          <%= link_to :root do %>
+            <h1>Yo tengo un cine</h1>
+          <% end %>
         </div>
 
         <div class="clear"></div>

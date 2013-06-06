@@ -125,6 +125,10 @@ a:hover {
   display: inline;
 }
 
+#header .menu li.active a{
+  font-size: 18px;
+}
+
 #header .menu li+li:before {
   content: "/ ";
 }
@@ -139,6 +143,10 @@ a:hover {
 
 #header .languages li {
   display: inline;
+}
+
+#header .languages li.disabled a {
+  color: #999;
 }
 
 #header .languages li+li:before {

@@ -1,5 +1,5 @@
 YoTengoUnCine::Application.routes.draw do
-  root :to => "front/items#index"
+  root :to => redirect("/front/pages/home")
 
   namespace :front do
     resources :pages, :only => [:show]

@@ -71,6 +71,7 @@ es:
           mucho tiempo.
 
       form_button: Apadrinar butaca
+      form_placeholder: Nombre del padrino
 
     home:
       text_1: |
@@ -115,13 +116,13 @@ es:
         link: Hacerme socio
 
       chair_support_block:
-        title: Hazte socio
+        title: Apadrina una butaca
         text: |
           Son ellas. Compañeras silenciosas que te han respaldado en infinidad de aventuras.
           En ellas te has reído, las has estrujado cuando tenías miedo, han soportado tus llantos...
           **¿No crees que ya va siendo hora de agradecérselo?**
 
-        link: Hacerme socio
+        link: Apradinar butaca
 
       cinecitarios_block:
         title: Cinecitario

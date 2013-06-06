@@ -13,19 +13,19 @@
 <div id="home_menu">
   <div class="item member">
     <h1><%= t("views.home.members_block.title") %></h1>
-    <%= t("views.home.members_block.text") %>
+    <%= t("views.home.members_block.text").to_md %>
     <%= link_to "#{t("views.home.members_block.link")} >", "http://socis.cineciutat.org", :class => "button" %>
   </div>
 
   <div class="item chair">
     <h1><%= t("views.home.chair_support_block.title") %></h1>
-    <%= t("views.home.chair_support_block.text") %>
+    <%= t("views.home.chair_support_block.text").to_md %>
     <%= link_to "#{t("views.home.chair_support_block.link")} >", front_page_path("chair_support"), :class => "button" %>
   </div>
 
   <div class="item cinecitario">
     <h1><%= t("views.home.cinecitarios_block.title") %></h1>
-    <%= t("views.home.cinecitarios_block.text") %>
+    <%= t("views.home.cinecitarios_block.text").to_md %>
 
     <%= link_to "#{t("views.home.chair_support_block.link")} >", front_page_path("cinecitarios"), :class => "button" %>
   </div>

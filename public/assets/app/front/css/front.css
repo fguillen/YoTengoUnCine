@@ -255,6 +255,12 @@ a:hover {
   background-size: 44%;
 }
 
+#home_menu {
+  background-image: url("../img/tramado-bg.gif");
+  margin: 40px -200px;
+  padding: 0px 200px 20px 200px;
+}
+
 #home_menu h1 {
   font-family: "Arbutus Slab", serif;
   font-size: 20px;
@@ -358,5 +364,5 @@ img.image_decoration {
 #chair_support form input[type="text"] {
   padding: 8px;
   width: 388px;
-
+  font-size: 14px;
 }

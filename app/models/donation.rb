@@ -66,7 +66,7 @@ class Donation < ActiveRecord::Base
     case kind
     when Donation::KINDS[:donation_5]
       donation.amount = 5
-      donation.description = I18n.t("donations.donation_15.description")
+      donation.description = I18n.t("donations.donation_5.description")
 
     when Donation::KINDS[:donation_15]
       donation.amount = 5

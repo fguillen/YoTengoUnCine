@@ -15,7 +15,7 @@
 
           <div class="menu">
             <ul>
-              <li><%= link_to t("views.header.menu.be_a_member"), "http://socis.cineciutat.org" %></li>
+              <li><%= link_to t("views.header.menu.be_a_member"), "http://socis.cineciutat.org", :target => "_blank" %></li>
               <li class="<%= menu_class(:chair_support) %>"><%= link_to t("views.header.menu.chair_support"), front_page_path("chair_support") %></li>
               <li class="<%= menu_class(:cinecitarios) %>"><%= link_to t("views.header.menu.cinecitarios"), front_page_path("cinecitarios") %></li>
             </ul>
@@ -31,7 +31,7 @@
           <div class="social">
             <ul>
               <li><%= link_to "facebook", "https://www.facebook.com/CineCiutat", :class => "zocial icon facebook" %></li>
-              <li><%= link_to "twitter", "https://twitter.com/CineCiutat", :class => "zocial icon twitter" %></li>
+              <li><%= link_to "twitter", "https://twitter.com/CineCiutat", :class => "zocial icon twitter", :target => "_blank" %></li>
               <!-- <li><%= link_to "google", "#google", :class => "zocial icon google" %></li> -->
             </ul>
           </div>
@@ -56,9 +56,9 @@
           <div class="menu">
             Colaboradores:
             <ul>
-              <li><%= link_to "Logo", "#logo" %></li>
-              <li><%= link_to "Logo", "#logo" %></li>
-              <li><%= link_to "Logo", "#logo" %></li>
+              <li><%= link_to "Sendos Creaciones", "http://sendos.net/", :target => "_blank" %></li>
+              <li><%= link_to "MkLab Ideas", "http://mklab.es/", :target => "_blank" %></li>
+              <li><%= link_to "fguillen Desarrollo", "http://fernandoguillen.info", :target => "_blank" %></li>
             </ul>
           </div>
 

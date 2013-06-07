@@ -39,15 +39,15 @@ a:hover {
 }
 
 #wrapper.home {
-  background-image: url("../img/background-popcorn.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
+  background-image: url("../img/home.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
 }
 
 #wrapper.cinecitarios {
-  background-image: url("../img/background-hucha.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
+  background-image: url("../img/donaciones.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
 }
 
 #wrapper.chair_support {
-  background-image: url("../img/background-butaca.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
+  background-image: url("../img/apadrina.png"), url("../img/background-film.png"), url("../img/background-grey.jpg");
 }
 
 #wrapper {
@@ -184,7 +184,7 @@ a:hover {
 }
 
 #footer .menu {
-  font-size: 10px;
+  font-size: 8px;
   color: #666;
   float: right;
 }
@@ -196,7 +196,7 @@ a:hover {
 #footer .menu li {
   display: inline;
   font-family: "Arbutus Slab", serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   margin-left: 12px;
 }
@@ -232,7 +232,7 @@ a:hover {
   text-decoration: none;
 }
 
-#home_menu .item a {
+#home_menu .item .controls {
   position: absolute;
   left: 0;
   bottom: 0;

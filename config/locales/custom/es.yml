@@ -2,22 +2,33 @@ es:
   donations:
     donation_5:
       title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      text: |
+        Tu nombre para la posteridad en nuestro microsite
+        El alquiler de 1 película gratis en Filmin.
       description: Donación CineCiutat de 5€
 
     donation_15:
-      title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      title: Proyeccionista
+      text: |
+        Tu nombre para la posteridad en nuestro microsite
+        El alquiler de 4 películas gratis en Filmin
       description: Donación CineCiutat de 15€
 
     donation_30:
-      title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      title: Productor
+      text: |
+        Tu nombre para la posteridad en nuestro microsite
+        1 suscripción Filmin premium durante un mes
+        Un número para el sorteo de una película dedicada y firmada por Sergi López
       description: Donación CineCiutat de 30€
 
     donation_50:
-      title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      title: Director
+      text: |
+        Tu nombre para la posteridad en nuestro microsite
+        2 suscripciones Filmin premium durante un mes
+        1 camiseta de diseño exclusivo de CineCiutat
+        3 números para el sorteo de una película dedicada y firmada por Sergi López
       description: Donación CineCiutat de 50€
 
     chair_support:
@@ -37,7 +48,7 @@ es:
     cinecitarios:
       title: Cinecitarios
       text: |
-        Dícese de aquella persona que cuyos principios vitales pasan por
+        Dícese de aquella persona cuyos principios vitales pasan por
         contribuir a la causa de **CineCiutat** por encima otros caprichos sea cual
         sea su índole o naturaleza.
 
@@ -134,17 +145,11 @@ es:
 
     thanks_popup:
       text: |
-        Quisque vestibulum diam non viverra euismod. Aenean dictum, ipsum
-        tristique rhoncus sollicitudin, sapien tellus feugiat erat, sed varius
-        velit magna non lorem. Pellentesque rhoncus libero id mi aliquet, ac
-        auctor lacus euismod.
-
-        Aliquam ut facilisis urna. Quisque tempus est lectus, ullamcorper
-        rutrum augue laoreet quis. Suspendisse potenti. Curabitur sit
-        amet enim mi. Vivamus consectetur congue facilisis.
+        Muchas gracias por formar parte de la gran familia de CineCiutat.
 
       button_close: Cerrar
       button_cineciutat: Ir a Cineciutat
+
 
 
 

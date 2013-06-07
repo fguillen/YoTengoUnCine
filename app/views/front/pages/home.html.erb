@@ -4,7 +4,14 @@
   <%= t("views.home.text_1").to_md %>
 
   <div id="player">
-    <%= image_tag "/assets/app/front/img/video.jpg" %>
+    <iframe
+      id="ytplayer"
+      type="text/html"
+      width="640"
+      height="390"
+      src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&origin=http://example.com"
+      frameborder="0"
+    ></iframe>
   </div>
 
   <%= t("views.home.text_2").to_md %>

@@ -74,16 +74,16 @@ es:
     chair_support:
       title: Apadrina una butaca
       text: |
-          Son ellas. Compañeras silenciosas que te han respaldado en infinidad
-          de aventuras. En ellas te has reído, las has estrujado cuando tenías
-          miedo, han soportado tus llantos... ¿No crees que ya va siendo hora
-          de agradecérselo?
+        Son ellas. Compañeras silenciosas que te han respaldado en infinidad
+        de aventuras. En ellas te has reído, las has estrujado cuando tenías
+        miedo, han soportado tus llantos... ¿No crees que ya va siendo hora
+        de agradecérselo?
 
-          ### ¡Apadrina una butaca!
+        ### ¡Apadrina una butaca!
 
-          Por 180€ al año, una butaca de CineCiutat llevará tu nombre.
-          Para que puedan seguir siendo cómplices de tus emociones por
-          mucho tiempo.
+        Por 180€ al año, una butaca de CineCiutat llevará tu nombre.
+        Para que puedan seguir siendo cómplices de tus emociones por
+        mucho tiempo.
 
       form_button: Apadrinar butaca
       form_placeholder: Nombre del padrino
@@ -99,15 +99,23 @@ es:
       text_2: |
         <span class="big">**CineCiutat** es una iniciativa pionera nacida del amor por el séptimo arte de gente de Mallorca.</span>
 
-        El afán de esas personas por impedir que desapareciera el único cine en versión original de Mallorca, consiguió que el **emblemático cine de S'Escorxador** reabriera sus puertas con el nombre de **CineCiutat** tras el cierre del antiguo Renoir.
+        El afán de esas personas por impedir que desapareciera el único cine en versión original de Mallorca,
+        consiguió que el **emblemático cine de S'Escorxador** reabriera
+        sus puertas con el nombre de **CineCiutat** tras el cierre del antiguo Renoir.
 
-        Ese cine especial y ajeno a lo puramente comercial que tantos cinéfilos se empeñaron en conseguir es ya una realidad. **CineCiutat** se ha consolidado como un referente de cine ciudadano, democrático, con películas independientes, de calidad y en V.O.S.E, y ciclos de cine clásico, coloquios con personalidades del mundo del cine, talleres para niños y sesiones familiares, entre otras iniciativas propuestas por las voluntarias y voluntarios de **CineCiutat**.
+        Ese cine especial y ajeno a lo puramente comercial que tantos cinéfilos se
+        empeñaron en conseguir es ya una realidad. **CineCiutat** se ha consolidado como un
+        referente de cine ciudadano, democrático, con películas independientes, de calidad y en V.O.S.E,
+        y ciclos de cine clásico, coloquios con personalidades del mundo del cine, talleres para niños
+        y sesiones familiares, entre otras iniciativas propuestas por las voluntarias y voluntarios de **CineCiutat**.
 
-        Porque en **CineCiutat**, son las socias y los socios quienes hacen el cine, quienes eligen, quienes aportan y quienes deciden. Por ello, todos pueden decir sin complejos **"Yo tengo un cine"**.
+        Porque en **CineCiutat**, son las socias y los socios quienes hacen el cine, quienes eligen,
+        quienes aportan y quienes deciden. Por ello, todos pueden decir sin complejos **"Yo tengo un cine"**.
 
-       **¿Quieres tú un cine?** ¿Quieres contribuir a salvar la magia, los fotogramas,
+        **¿Quieres tú un cine?** ¿Quieres contribuir a salvar la magia, los fotogramas,
         las BSO y los diálogos que marcaron tu vida y la completaron? Entonces, ten tu cine,
-        di ante todos y en voz alta **"Yo tengo un cine"**, siéntete orgullos@ de preservar algo bello y forma parte de esta iniciativa única.
+        di ante todos y en voz alta **"Yo tengo un cine"**, siéntete orgullos@ de preservar algo
+        bello y forma parte de esta iniciativa única.
 
       members_block:
         title: Hazte socio
@@ -137,7 +145,14 @@ es:
 
     thanks_popup:
       text: |
-            Muchas gracias por demostrar tu amor al séptimo arte y ayudarnos a mantener vivo el primer cine que es propiedad única y exclusiva de las ciudadanas y los ciudadanos. En pocos días, recibirás tu recompensa. Puedes seguir la actividad de tu cine a través de los canales de comunicación: en facebook (CineCiutat), en twitter (@CineCiutat) y en la web http://cineciutat.org.
+        Muchas gracias por demostrar tu amor al séptimo arte y ayudarnos a mantener vivo el primer
+        cine que es propiedad única y exclusiva de las ciudadanas y los ciudadanos. En pocos días,
+        recibirás tu recompensa. Puedes seguir la actividad de tu cine a través de los canales de comunicación:
+        en facebook (CineCiutat), en twitter (@CineCiutat) y en la web http://cineciutat.org.
 
       button_close: Cerrar
       button_cineciutat: Ir a Cineciutat
+
+
+
+

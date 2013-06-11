@@ -7,7 +7,6 @@
 * Traducir imágenes
 * Carrusel de vídeos youtube
 * Separadores "línea gris inclinada" en home bloque de abajo
-* Traducir textos
 * Pasar a Mysql
 * Google analytics
 * Admin pages

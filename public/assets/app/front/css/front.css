@@ -99,11 +99,6 @@ a:hover {
 }
 
 #header h1{
-  height: 70px;
-  background: url("../img/logo-yotengouncine-esp.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  text-indent: -9999px;
   margin-top: 15px;
   margin-bottom: 15px;
 }

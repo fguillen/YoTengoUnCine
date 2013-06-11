@@ -2,22 +2,38 @@ ca:
   donations:
     donation_5:
       title: Acomodador
-      text: Gràcies per donar llum al nostre cinema. El teu nom per sempre en el nostre microsite. El lloguer gratuït d’una pel·lícula a Filmin.
+      text: Gràcies per donar llum al nostre cinema.
+      rewards: |
+        * El teu nom per sempre en el nostre microsite.
+        * El lloguer gratuït d’una pel·lícula a Filmin.
+
       description: Donación CineCiutat de 5€
 
     donation_15:
       title: Projeccionista
-      text: Gràcies per projectar els nostres somnis. El teu nom per sempre en el nostre microsite. El lloguer gratuït de 4 pel·lícules a Filmin.
+      text: Gràcies per projectar els nostres somnis.
+      rewards: |
+        * El teu nom per sempre en el nostre microsite.
+        * El lloguer gratuït de 4 pel·lícules a Filmin.
+
       description: Donación CineCiutat de 15€
 
     donation_30:
       title: Productor
-      text: Gràcies per gestionar els nostres somnis. 1 subscripcció Filmin premium durant un mes. 1 número per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
+      text: Gràcies per gestionar els nostres somnis.
+      rewards: |
+        * 1 subscripcció Filmin premium durant un mes.
+        * 1 número per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
+
       description: Donación CineCiutat de 30€
 
     donation_50:
       title: Director
-      text: Gràcies per creure en els somnis i donar-los forma. 2 subscripccions Filmin premium durant un mes. 3 números per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
+      text: Gràcies per creure en els somnis i donar-los forma.
+      rewards: |
+        * 2 subscripccions Filmin premium durant un mes.
+        * 3 números per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
+
       description: Donación CineCiutat de 50€
 
     chair_support:

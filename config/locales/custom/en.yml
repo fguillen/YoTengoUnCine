@@ -2,37 +2,39 @@ en:
   donations:
     donation_5:
       title: Usher
-      text: |
-        Thanks for showing us the way
-        Your name on our website for posterity
-        Rent a movie for free in Filmin
+      text: Thanks for showing us the way
+      rewards: |
+        * Your name on our website for posterity
+        * Rent a movie for free in Filmin
+
       description: Donate 5€ to CineCiutat
 
     donation_15:
       title: Projectionist
-      text: |
-        Thanks for projecting our dreams
-        Your name on our website for posterity
-        Rent 4 movies for free in Filmin.
+      text: Thanks for projecting our dreams
+      rewards: |
+        * Your name on our website for posterity
+        * Rent 4 movies for free in Filmin.
       description: Donate 15€ to CineCiutat
 
     donation_30:
       title: Producer
-      text: |
-        Thanks for managing our dreams
-        Your name on our website for posterity
-        1 month free subscription to Filmin
-        A ticket to win an autographed film by Sergi López with a personal dedication
+      text: Thanks for managing our dreams
+      rewards: |
+        * Your name on our website for posterity
+        * 1 month free subscription to Filmin
+        * A ticket to win an autographed film by Sergi López with a personal dedication
+
       description: Donate 30€ to CineCiutat
 
     donation_50:
       title: Director
-      text: |
-        Thanks for believing in our dreams and shaping them
-        Your name on our website for posterity
-        2 month free subscription to Filmin
-        1 Cineciutat T-shirt with our exclusive design
-        3 tickets to win an autographed film by Sergi López with a personal dedication
+      text: Thanks for believing in our dreams and shaping them
+      rewards: |
+        * Your name on our website for posterity
+        * 2 month free subscription to Filmin
+        * 1 Cineciutat T-shirt with our exclusive design
+        * 3 tickets to win an autographed film by Sergi López with a personal dedication
       description: Donate 50€ to CineCiutat
 
     chair_support:

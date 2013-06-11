@@ -2,155 +2,114 @@ ca:
   donations:
     donation_5:
       title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      text: Gràcies per donar llum al nostre cinema. El teu nom per sempre en el nostre microsite. El lloguer gratuït d’una pel·lícula a Filmin.
       description: Donación CineCiutat de 5€
 
     donation_15:
-      title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      title: Projeccionista
+      text: Gràcies per projectar els nostres somnis. El teu nom per sempre en el nostre microsite. El lloguer gratuït de 4 pel·lícules a Filmin.
       description: Donación CineCiutat de 15€
 
     donation_30:
-      title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      title: Productor
+      text: Gràcies per gestionar els nostres somnis. 1 subscripcció Filmin premium durant un mes. 1 número per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
       description: Donación CineCiutat de 30€
 
     donation_50:
-      title: Acomodador
-      text: Tiene palomitas más crujientes que los demás
+      title: Director
+      text: Gràcies per creure en els somnis i donar-los forma. 2 subscripccions Filmin premium durant un mes. 3 números per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
       description: Donación CineCiutat de 50€
 
     chair_support:
       title: Apadrinar una butaca
-      text: Apadrinas una butaca por todo un año
+      text: Apadrines una butaca pet tot un any
       description: Apadrinar una butaca CineCiutat 180€/año
 
   views:
     header:
-      title: YoTengoUnCine
+      title: JoTencUnCinema
 
       menu:
-        be_a_member: Hazte socio
+        be_a_member: Fes-te soci
         chair_support: Apadrina una butaca
-        cinecitarios: Cinecitarios
+        cinecitarios: Cinecitaris
 
     cinecitarios:
-      title: Cinecitarios
+      title: Cinecitaris
       text: |
-        Dícese de aquella persona que cuyos principios vitales pasan por
-        contribuir a la causa de **CineCiutat** por encima otros caprichos sea cual
-        sea su índole o naturaleza.
+        És la persona que té com a principi vital contribuir a la causa de **CineCiutat** per damunt d’altres capritxos sigui quina sigui la seva naturalesa.
 
-        **Existen distintas categorías de Cinecitarios según su aportación:**
+        **Existeixen diferents categories de Cinecitaris, segons la seva aportació:**
 
       how_to_donate:
-        title: ¿Cómo realizar las aportaciones?
+        title: ¿Com fer les aportacions?
         text: |
-          Las aportaciones se realizan por transferencia bancaria en el número de cuenta que
-          os indicamos a continuación.
+          Les aportacions es realitzen per transferència bancària en aquest número de compte.
 
           <span class="big">Caixa Colonya: 2056-0007-85-4102001438</span>
 
-          Puedes acercarte a recoger tu obsequio a las taquillas de CineCiutat en horario comercial,
-          con tu DNI y el justificante de pago.
+          Pots recollir el teu obsequi a la taquilla de CineCiutat en horari comercial,
+          amb el teu DNI i el justificant de pagament.
 
-      donation_link: Hacer donación
+      donation_link: Fer donació
 
     chair_support:
       title: Apadrina una butaca
       text: |
-          Son ellas. Compañeras silenciosas que te han respaldado en infinidad
-          de aventuras. En ellas te has reído, las has estrujado cuando tenías
-          miedo, han soportado tus llantos... ¿No crees que ya va siendo hora
-          de agradecérselo?
+          Són elles. Companyes silencioses que t’han servit de suport en tantes aventures; al seu damunt, hi has rigut; les has aferrat fort quan tenies por; han aguantat els teus plors... No creus que ja és hora de ser agraït/da amb elles?
 
-          ### ¡Apadrina una butaca!
+          ### Apadrina una butaca!
 
-          Por 180€ al año, una butaca de CineCiutat llevará tu nombre.
-          Para que puedan seguir siendo cómplices de tus emociones por
-          mucho tiempo.
+          Per 180€ cada any, una butaca de CineCiutat durà el teu nom.
+          Perquè puguin continuar com a còmplices de les teves emocions per molt de temps.
 
       form_button: Apadrinar butaca
-      form_placeholder: Nombre del padrino
+      form_placeholder: Nom del padrí/madrina
 
     home:
       text_1: |
-        Quizás nunca viajes a las Seychelles. Igual tampoco saldrás de copas con cracks del deporte, ni
-        vivirás en mansiones con 30 Chihuahuas Pincher miniatura pero… **¡¡¡Tienes un cine!!!**
+        És possible que no viatgis mai a les Seychelles. Igual no sortiràs de copes amb cracs de l’esport, ni viuràs en mansions amb 30 chiuahues, però… **Tens un cinema!!!**
 
-        Aquí os mostramos los spots de los orgullosos propietarios de **CineCiutat**.
-        Seguro que pronto estaréis entre ellos.
+        Aquí us mostrem els spots dels propietaris de **CineCiutat**.
+        De ben segur que aviat sereu un d’ells.
 
       text_2: |
-        <span class="big">**CineCiutat** es una iniciativa pionera nacida del amor por el séptimo arte de gente de Mallorca.</span>
+        <span class="big">**CineCiutat** és una iniciativa pionera nascuda de l’amor pel setè art de la gent de Mallorca.</span>
 
-        El afán de esas personas en impedir que ese cine especial, que conmueve y que es ajeno a lo puramente comercial,
-        desapareciera, consiguió que el **emblemático cine de S'Escorxador**
-        reabriera sus puertas con el nombre de **CineCiutat**
-        tras el cierre del antiguo Renoir.
+        L’afany d’aquestes persones per impedir que aquest cinema desaparegués, va aconseguir que **l’emblemàtic cinema de S'Escorxador** reobrís les seves portes amb el nom de **CineCiutat** després del tancament de l’antic Renoir.
 
-        A día de hoy, el cine que tantos cinéfilos se empeñaron en conseguir es ya una realidad.
-        **CineCiutat** se ha consolidado como un referente de cine ciudadano, democrático,
-        con películas independientes, de calidad y en V.O.S.E, y ciclos de cine clásico, coloquios
-        con personalidades del mundo del cine, talleres para niños y sesiones familiares, entre otras
-        iniciativas propuestas por los socios de **CineCiutat**.
+        Avui dia, el cinema que tants de cinèfils es varen obstinar en aconseguir ja és una realitat.        **CineCiutat** s’ha consolidat com un referent de sala ciutadana, democràtica, amb pel·lícules independents, de qualitat i en VOSE, i cicles de clàssics, col·loquis amb personalitats del món del cinema, tallers per a nins i sessions familiars, entre d’altres iniciatives proposades pels mateixos socis/es  de **CineCiutat**.
 
-        Porque en **CineCiutat**, son los socios quienes hacen el cine, quienes eligen, quienes aportan
-        y quienes deciden. Por ello, cada socio puede decir sin complejos **"Yo tengo un cine"**,
-        porque, sin su apoyo y el de todos los demás socios, el cine dejaría de existir; su aportación
-        hace posible **CineCiutat**, por lo que todos y cada uno de los socios tienen,
-        efectivamente, **un cine: el suyo, el que ellos quieran tener**.
+        Perquè a **CineCiutat**, els socis/es són els que fa el cinema, els que escullen i els que decideixen. Per això, cada soci pot dir sense complexos **"Jo tenc un cinema"**, perquè sense el seu suport, el cine deixaria d’existir; la seva aportació fa possible **CineCiutat**, perquè tots i cadascun dels socis/es tenen, efectivament, **un cinema: el seu, el que ells vulguin tenir**.
 
-        **¿Quieres tú un cine?** ¿Quieres contribuir a salvar la magia, los fotogramas,
-        las BSO y los diálogos que marcaron tu vida y la completaron? Entonces, ten tu cine,
-        di ante todos y en voz alta **"Yo tengo un cine"**, siéntete orgulloso de preservar algo bello
-        y forma parte de esta iniciativa única.
+        **Tu vols un cinema?** Vols contribuir a salvar la màgia, els fotogrames, les bandes sonores i els diàlegs que han marcat la teva vida? Idò, aquí tens el teu cinema: podràs dir davant de tothom i en veu alta **"Jo tenc un cinema"**, podràs sentir-te orgullòs de fer part d’aquesta iniciativa única.
 
       members_block:
-        title: Hazte socio
+        title: Fes-te soci/a
         text: |
-          ¿Quieres un cine? Entonces, ten un cine... Únete a nuestra comunidad de apasionados del cine.
+          Vols un cinema? Idò, aquí tens un cinema... Uneix-te a la nostra comunitat d’apassionats del cinema.
 
-          Benefíciate de sus ventajas, descuentos y disfruta de grandes películas.
+          Gaudeix de grans pel·lícules i benefícia’t dels avantatges i els descomptes.
 
-        link: Hacerme socio
+        link: Fer-me soci/a
 
       chair_support_block:
         title: Apadrina una butaca
         text: |
-          Son ellas. Compañeras silenciosas que te han respaldado en infinidad de aventuras.
-          En ellas te has reído, las has estrujado cuando tenías miedo, han soportado tus llantos...
-          **¿No crees que ya va siendo hora de agradecérselo?**
+          Són elles. Companyes silencioses que t’han servit de suport en tantes aventures.  Al seu damunt, hi has rigut, les has aferrat fort quan tenies por. Han aguantat els teus plors... **No creus que ja és hora de ser agraït/da amb elles?**
 
         link: Apradinar butaca
 
       cinecitarios_block:
-        title: Cinecitario
+        title: Cinecitari
         text: |
-          Dícese de aquella persona que cuyos principios vitales pasan por contribuir a
-          la causa de **CineCiutat** por encima otros caprichos sea cual sea su índole o naturaleza.
+           És la persona que té com a principi vital contribuir a la causa de **CineCiutat** per damunt d’altres capritxos sigui quina sigui la seva naturalesa.
 
-        link: Hacer donación
+        link: Fer donació
 
     thanks_popup:
       text: |
-        Quisque vestibulum diam non viverra euismod. Aenean dictum, ipsum
-        tristique rhoncus sollicitudin, sapien tellus feugiat erat, sed varius
-        velit magna non lorem. Pellentesque rhoncus libero id mi aliquet, ac
-        auctor lacus euismod.
+        Gràcies per demostrar el teu amor al setè art i ajudar-nos a mantenir amb vida el primer cinema que és propietat única i exclusiva de les ciutadanes i els ciutadans! D’aquí a pocs dies, rebràs la recompensa. Pots seguir l’activitat del teu cinema mitjançant els canals de comunicació: al facebook (CineCiutat), al twitter (@CineCiutat) i al web http://cineciutat.org.
 
-        Aliquam ut facilisis urna. Quisque tempus est lectus, ullamcorper
-        rutrum augue laoreet quis. Suspendisse potenti. Curabitur sit
-        amet enim mi. Vivamus consectetur congue facilisis.
-
-      button_close: Cerrar
-      button_cineciutat: Ir a Cineciutat
-
-
-
-
-
-
-
-
-
+      button_close: Tancar
+      button_cineciutat: Anar a Cineciutat

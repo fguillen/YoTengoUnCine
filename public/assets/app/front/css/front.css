@@ -394,6 +394,12 @@ img.image_decoration {
   font-size: 14px;
 }
 
+#chair_support h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 /* THANKS POPUP */
 
 #thanks_content {

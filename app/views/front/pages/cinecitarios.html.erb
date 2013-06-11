@@ -13,7 +13,7 @@
     <% [5, 15, 30, 50].each do |donation_amount| %>
       <li>
         <div>
-          <div class="left_column">
+          <div class="badge_left">
             <div class="price">
               <span class="number"><%= donation_amount %></span>
               €uros
@@ -25,7 +25,7 @@
               <% end %>
             </div>
           </div>
-          <div class="right_column">
+          <div class="badge_right">
             <h3><%= t("donations.donation_#{donation_amount}.title") %></h3>
             <div class="text"><%= t("donations.donation_#{donation_amount}.text").to_md %></div>
             <div class="rewards"><%= t("donations.donation_#{donation_amount}.rewards").to_md %></div>

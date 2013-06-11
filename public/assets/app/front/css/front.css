@@ -60,7 +60,7 @@ a:hover {
 }
 
 
-#content > .right_column {
+.right_column {
   width: 640px;
   margin-left: 340px;
   position: relative;
@@ -68,7 +68,7 @@ a:hover {
 
 /* COMMON */
 
-#content > .right_column h2 {
+.right_column h2 {
   font-family: "Arbutus Slab", serif;
   font-size: 30px;
   font-weight: bold;
@@ -76,7 +76,7 @@ a:hover {
   margin-bottom: 15px;
 }
 
-#content > .right_column img.image_decoration {
+.right_column img.image_decoration {
   width: 120px;
   position: absolute;
   top: -55px;
@@ -299,7 +299,7 @@ img.image_decoration {
   background-position: left bottom;
 }
 
-#cinecitarios .badges .left_column {
+#cinecitarios .badges .badge_left {
   text-align: center;
   float: left;
   width: 132px;
@@ -308,7 +308,7 @@ img.image_decoration {
   box-sizing: border-box;
 }
 
-#cinecitarios .badges .right_column {
+#cinecitarios .badges .badge_right {
   float: left;
   width: 508px;
   padding-top: 21px;
@@ -330,12 +330,16 @@ img.image_decoration {
 
 #cinecitarios .badges .link {
   font-size: 12px;
-  background-color: #222;
+  background-color: #444;
   color: white;
   margin: 14px 20px;
   padding: 8px;
   border-radius: 5px;
   text-transform: uppercase;
+}
+
+#cinecitarios .badges li:hover .link {
+  background-color: #222;
 }
 
 #cinecitarios .badges .text {

@@ -28,6 +28,7 @@ ca:
   views:
     header:
       title: JoTencUnCinema
+      title_image: logo-yotengouncine-cat.png
 
       menu:
         be_a_member: Fes-te soci
@@ -55,6 +56,8 @@ ca:
 
     chair_support:
       title: Apadrina una butaca
+      title_image: precio-butaca-cat.png
+
       text: |
           Són elles. Companyes silencioses que t’han servit de suport en tantes aventures; al seu damunt, hi has rigut; les has aferrat fort quan tenies por; han aguantat els teus plors... No creus que ja és hora de ser agraït/da amb elles?
 
@@ -67,6 +70,8 @@ ca:
       form_placeholder: Nom del padrí/madrina
 
     home:
+      video_url: http://www.youtube.com/embed/6znvxs81sBI
+
       text_1: |
         És possible que no viatgis mai a les Seychelles. Igual no sortiràs de copes amb cracs de l’esport, ni viuràs en mansions amb 30 chiuahues, però… **Tens un cinema!!!**
 
@@ -108,8 +113,19 @@ ca:
         link: Fer donació
 
     thanks_popup:
+      title_image: gracias-cat.png
+
       text: |
-        Gràcies per demostrar el teu amor al setè art i ajudar-nos a mantenir amb vida el primer cinema que és propietat única i exclusiva de les ciutadanes i els ciutadans! D’aquí a pocs dies, rebràs la recompensa. Pots seguir l’activitat del teu cinema mitjançant els canals de comunicació: al facebook (CineCiutat), al twitter (@CineCiutat) i al web http://cineciutat.org.
+        Gràcies per demostrar el teu amor al setè art i ajudar-nos a
+        mantenir amb vida el primer cinema que és propietat única
+        i exclusiva de les ciutadanes i els ciutadans!
+
+        D’aquí a pocs dies, rebràs la recompensa.
+        Pots seguir l’activitat del teu cinema mitjançant els
+        canals de comunicació:
+        [al facebook](https://www.facebook.com/CineCiutat),
+        [al twitter](https://twitter.com/CineCiutat)
+        i [al web](http://cineciutat.org).
 
       button_close: Tancar
       button_cineciutat: Anar a Cineciutat

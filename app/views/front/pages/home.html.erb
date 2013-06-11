@@ -5,13 +5,11 @@
 
   <div id="player">
     <iframe
-      id="ytplayer"
-      type="text/html"
       width="640"
       height="390"
-      src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=0&origin=http://example.com"
+      src="<%= t("views.home.video_url") %>"
       frameborder="0"
-    ></iframe>
+      allowfullscreen></iframe>
   </div>
 
   <%= t("views.home.text_2").to_md %>
@@ -55,7 +53,7 @@
     <div class="text">
       <h2>
         <span class="hide">Te da las gracias</span>
-        <%= image_tag "/assets/app/front/img/gracias-esp.png" %>
+        <%= image_tag "/assets/app/front/img/#{t("views.thanks_popup.title_image")}" %>
       </h2>
 
       <%= t("views.thanks_popup.text").to_md %>

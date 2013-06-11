@@ -1,0 +1,142 @@
+en:
+  donations:
+    donation_5:
+      title: Usher
+      text: |
+        Thanks for showing us the way
+        Your name on our website for posterity
+        Rent a movie for free in Filmin
+      description: Donate 5€ to CineCiutat
+
+    donation_15:
+      title: Projectionist
+      text: |
+        Thanks for projecting our dreams
+        Your name on our website for posterity
+        Rent 4 movies for free in Filmin.
+      description: Donate 15€ to CineCiutat
+
+    donation_30:
+      title: Producer
+      text: |
+        Thanks for managing our dreams
+        Your name on our website for posterity
+        1 month free subscription to Filmin
+        A ticket to win an autographed film by Sergi López with a personal dedication
+      description: Donate 30€ to CineCiutat
+
+    donation_50:
+      title: Director
+      text: |
+        Thanks for believing in our dreams and shaping them
+        Your name on our website for posterity
+        2 month free subscription to Filmin
+        1 Cineciutat T-shirt with our exclusive design
+        3 tickets to win an autographed film by Sergi López with a personal dedication
+      description: Donate 50€ to CineCiutat
+
+    chair_support:
+      title: Sponsor a seat
+      text: Sponsor a seat for a whole year
+      description: Sponsor a CineCiutat seat for 180€ a year
+
+  views:
+    header:
+      title: I’ve got a cinema
+      title_image: logo-yotengouncine-esp.png
+
+      menu:
+        be_a_member: Become a member
+        chair_support: Sponsor a seat
+        cinecitarios: Cineciutat paladins
+
+    cinecitarios:
+      title: Cineciutat paladins
+      text: |
+        One whose principles in life include contributing to **CineCiutat** cause
+        and ignoring other whims, whatever their nature.
+
+        ** There are different categories of Cineciutat paladins according to their contribution:**
+
+      how_to_donate:
+        title: How to donate
+        text: |
+          Donations can be made by bank transfer to the bank account specified below.
+
+          <span class="big">Caixa Colonya: 2056-0007-85-4102001438</span>
+
+          Puedes acercarte a recoger tu obsequio a las taquillas de CineCiutat en horario comercial,
+          con tu DNI y el justificante de pago.
+
+      donation_link: Donate
+
+    chair_support:
+      title: Sponsor a seat
+      title_image: precio-butaca-esp.png
+
+      text: |
+        They are the silent partners who have stood by you in your adventures. They have seen you laugh, be scared, cry. Shouldn’t you show them a little gratitude?
+
+        ###  Sponsor a seat!
+
+        For 180€ per year, a seat in CineCiutat will have your name on it.
+        So they can be an accomplice to your emotions for a long time.
+
+      form_button: Sponsor a seat
+      form_placeholder: Sponsor’s name
+
+    home:
+      video_url: http://www.youtube.com/embed/UOixsGlB1tA
+      text_1: |
+        Maybe you will never travel to the Seychelles. Or will go for a drink with sport stars or live in mansions with 30 Chihuahuas but... **You’ve got a cinema!!**
+
+        Here are the videos of the proud owners of **CineCiutat**.
+        You will surely be among them very soon.
+
+      text_2: |
+        <span class="big">**CineCiutat** is a pioneering initiative born out of love for the cinema among the people of Mallorca </span>
+
+        The enthusiasm of those people to prevent this unique arts cinema from disappearing,
+        made it possible for that **emblematic S'Escorxador cinema** to reopen under the name **CineCiutat** when the Renoir cinema closed down.
+
+        Nowadays, the cinema that all of us cinema lovers endeavored to preserve is a reality.
+        **CineCiutat** is an example of a people’s cinema, democratic, with independent quality films in original version. We also have classic film showings, debates with cinema celebrities, workshops for children, family showings and many other options for members of **CineCiutat**.
+
+        Because in **CineCiutat**, members are the ones who decide, contribute and create the cinema. That’s why all members can say proudly **"I’ve got a cinema"**,
+
+        **Do you want a cinema?** Do you want to help preserve the magic, the frames, the soundtracks and the dialogues which shaped your life? If so, be part of our cinema, and say out loud **"I have a cinema"**, be proud to preserve something beautiful and be part of this unique initiative.
+
+
+      members_block:
+        title: Become a member
+        text: |
+          Do you want a cinema? You can have it... Join our cinema lovers community.
+
+          Benefit from its advantages, discounts and enjoy great films.
+
+        link: Become a member
+
+      chair_support_block:
+        title: Sponsor a seat
+        text: |
+          They are the silent partners who have stood by you in your adventures. They have seen you laugh, be scared, cry. Shouldn’t you show them a little gratitude?**
+
+        link: Sponsor a seat
+
+      cinecitarios_block:
+        title: CineCiutat paladin
+        text: |
+          One whose principles in life include contributing to the **CineCiutat** cause, and ignoring other whims, whatever their nature
+
+        link: Donate
+
+    thanks_popup:
+      title_image: gracias-esp.png
+
+      text: |
+        Thanks for proving your love for the cinema and help us continue with the
+        first cinema that belongs exclusively to the people.
+
+      button_close: Close
+      button_cineciutat: Go to Cineciutat
+

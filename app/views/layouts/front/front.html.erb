@@ -25,6 +25,7 @@
             <ul>
               <li class="<%= "disabled" if(I18n.locale == :es) %>"><%= link_to "español", url_for(params.merge(:locale => :es)) %></li>
               <li class="<%= "disabled" if(I18n.locale == :ca) %>"><%= link_to "català", url_for(params.merge(:locale => :ca)) %></li>
+              <li class="<%= "disabled" if(I18n.locale == :en) %>"><%= link_to "english", url_for(params.merge(:locale => :en)) %></li>
             </ul>
           </div>
 
@@ -37,7 +38,10 @@
           </div>
 
           <%= link_to :root do %>
-            <h1>Yo tengo un cine</h1>
+            <h1>
+              <span class="hide">Yo tengo un cine</span>
+              <%= image_tag "/assets/app/front/img/#{t("views.header.title_image")}" %>
+            </h1>
           <% end %>
         </div>
 

@@ -2,37 +2,41 @@ es:
   donations:
     donation_5:
       title: Acomodador
-      text: |
-        Gracias por dar luz a nuestro cine
-        Tu nombre para la posteridad en nuestro microsite
-        El alquiler de 1 película gratis en Filmin
+      text: Gracias por dar luz a nuestro cine
+      rewards: |
+        * Tu nombre para la posteridad en nuestro microsite
+        * El alquiler de 1 película gratis en Filmin
+
       description: Donación CineCiutat de 5€
 
     donation_15:
       title: Proyeccionista
-      text: |
-        Gracias por proyectar nuestros sueños
-        Tu nombre para la posteridad en nuestro microsite
-        El alquiler de 4 películas gratis en Filmin
+      text: Gracias por proyectar nuestros sueños
+      rewards: |
+        * Tu nombre para la posteridad en nuestro microsite
+        * El alquiler de 4 películas gratis en Filmin
+
       description: Donación CineCiutat de 15€
 
     donation_30:
       title: Productor
-      text: |
-        Gracias por gestionar nuestros sueños
-        Tu nombre para la posteridad en nuestro microsite
-        1 suscripción Filmin premium durante un mes
-        Un número para el sorteo de una película dedicada y firmada por Sergi López
+      text: Gracias por gestionar nuestros sueños
+      rewards: |
+        * Tu nombre para la posteridad en nuestro microsite
+        * 1 suscripción Filmin premium durante un mes
+        * Un número para el sorteo de una película dedicada y firmada por Sergi López
+
       description: Donación CineCiutat de 30€
 
     donation_50:
       title: Director
-      text: |
-        Gracias por creer en los sueños y darles forma
-        Tu nombre para la posteridad en nuestro microsite
-        2 suscripciones Filmin premium durante un mes
-        1 camiseta de diseño exclusivo de CineCiutat
-        3 números para el sorteo de una película dedicada y firmada por Sergi López
+      text: Gracias por creer en los sueños y darles forma
+      rewards: |
+        * Tu nombre para la posteridad en nuestro microsite
+        * 2 suscripciones Filmin premium durante un mes
+        * 1 camiseta de diseño exclusivo de CineCiutat
+        * 3 números para el sorteo de una película dedicada y firmada por Sergi López
+
       description: Donación CineCiutat de 50€
 
     chair_support:
@@ -43,6 +47,7 @@ es:
   views:
     header:
       title: YoTengoUnCine
+      title_image: logo-yotengouncine-esp.png
 
       menu:
         be_a_member: Hazte socio
@@ -73,6 +78,8 @@ es:
 
     chair_support:
       title: Apadrina una butaca
+      title_image: precio-butaca-cat.png
+
       text: |
         Son ellas. Compañeras silenciosas que te han respaldado en infinidad
         de aventuras. En ellas te has reído, las has estrujado cuando tenías
@@ -89,6 +96,8 @@ es:
       form_placeholder: Nombre del padrino
 
     home:
+      video_url: http://www.youtube.com/embed/nNfcJanuc_8
+
       text_1: |
         Quizás nunca viajes a las Seychelles. Igual tampoco saldrás de copas con cracks del deporte, ni
         vivirás en mansiones con 30 Chihuahuas Pincher miniatura pero… **¡¡¡Tienes un cine!!!**
@@ -144,11 +153,17 @@ es:
         link: Hacer donación
 
     thanks_popup:
+      title_image: gracias-esp.png
+
       text: |
         Muchas gracias por demostrar tu amor al séptimo arte y ayudarnos a mantener vivo el primer
-        cine que es propiedad única y exclusiva de las ciudadanas y los ciudadanos. En pocos días,
-        recibirás tu recompensa. Puedes seguir la actividad de tu cine a través de los canales de comunicación:
-        en facebook (CineCiutat), en twitter (@CineCiutat) y en la web http://cineciutat.org.
+        cine que es propiedad única y exclusiva de las ciudadanas y los ciudadanos.
+
+        En pocos días, recibirás tu recompensa. Puedes seguir la actividad de tu cine a través
+        de los canales de comunicación:
+        [en facebook](https://www.facebook.com/CineCiutat),
+        [en twitter](https://twitter.com/CineCiutat)
+        y [en la web](http://cineciutat.org).
 
       button_close: Cerrar
       button_cineciutat: Ir a Cineciutat

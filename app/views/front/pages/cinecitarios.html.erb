@@ -1,3 +1,4 @@
+<% title t("views.cinecitarios.title") %>
 <% content_for :section, "cinecitarios" %>
 
 <div id="cinecitarios" class="right_column">
@@ -12,21 +13,24 @@
     <% [5, 15, 30, 50].each do |donation_amount| %>
       <li>
         <div>
-          <div class="price">
-            <span class="number"><%= donation_amount %></span>
-            €uros
+          <div class="left_column">
+            <div class="price">
+              <span class="number"><%= donation_amount %></span>
+              €uros
+            </div>
+            <div class="link">
+              <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:"donation_#{donation_amount}"])], :html => { :id  => "form_donation_#{donation_amount}" } do |f| %>
+                <%= f.hidden_field :kind %>
+                <%= link_to t("views.cinecitarios.donation_link"), "#donation", :onclick => "$('#form_donation_#{donation_amount}').submit()" %>
+              <% end %>
+            </div>
           </div>
-          <div class="text">
+          <div class="right_column">
             <h3><%= t("donations.donation_#{donation_amount}.title") %></h3>
-            <p><%= t("donations.donation_#{donation_amount}.text").to_md %></p>
+            <div class="text"><%= t("donations.donation_#{donation_amount}.text").to_md %></div>
+            <div class="rewards"><%= t("donations.donation_#{donation_amount}.rewards").to_md %></div>
           </div>
           <div class="clear"></div>
-          <div class="link">
-            <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:"donation_#{donation_amount}"])], :html => { :id  => "form_donation_#{donation_amount}" } do |f| %>
-              <%= f.hidden_field :kind %>
-              <%= link_to "#{t("views.cinecitarios.donation_link")} >", "#donation", :onclick => "$('#form_donation_#{donation_amount}').submit()" %>
-            <% end %>
-          </div>
         </div>
       </li>
     <% end %>

@@ -1,3 +1,4 @@
+<% title t("views.chair_support.title") %>
 <% content_for :section, "chair_support" %>
 
 <div id="chair_support" class="right_column">
@@ -7,7 +8,7 @@
 
   <%= t("views.chair_support.text").to_md %>
 
-  <%= image_tag "/assets/app/front/img/precio-butaca-esp.png" %>
+  <%= image_tag "/assets/app/front/img/#{t("views.chair_support.title_image")}" %>
 
   <div class="form">
     <%= form_for [:front, Donation.new(:kind => Donation::KINDS[:chair_support])] do |f| %>

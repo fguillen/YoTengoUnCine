@@ -7,7 +7,7 @@ ca:
         * El teu nom per sempre en el nostre microsite.
         * El lloguer gratuït d’una pel·lícula a Filmin.
 
-      description: Donación CineCiutat de 5€
+      description: Donació CineCiutat de 5€
 
     donation_15:
       title: Projeccionista
@@ -16,30 +16,32 @@ ca:
         * El teu nom per sempre en el nostre microsite.
         * El lloguer gratuït de 4 pel·lícules a Filmin.
 
-      description: Donación CineCiutat de 15€
+      description: Donació CineCiutat de 15€
 
     donation_30:
       title: Productor
       text: Gràcies per gestionar els nostres somnis.
       rewards: |
-        * 1 subscripcció Filmin premium durant un mes.
+        * 1 subscripció Filmin premium durant un mes.
         * 1 número per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
 
-      description: Donación CineCiutat de 30€
+      description: Donació CineCiutat de 30€
 
     donation_50:
       title: Director
       text: Gràcies per creure en els somnis i donar-los forma.
       rewards: |
-        * 2 subscripccions Filmin premium durant un mes.
+        * El teu nom per a la posteritat al nostre microsite.
+        * 2 subscripcions Filmin premium durant un mes.
+        * 1 samarreta de disseny exclusiu de CineCiutat
         * 3 números per al sorteig d’una pel·lícula dedicada i signada per Sergi López.
 
-      description: Donación CineCiutat de 50€
+      description: Donació CineCiutat de 50€
 
     chair_support:
       title: Apadrinar una butaca
       text: Apadrines una butaca pet tot un any
-      description: Apadrinar una butaca CineCiutat 180€/año
+      description: Apadrinar una butaca CineCiutat 180€/any
 
   views:
     header:
@@ -49,22 +51,23 @@ ca:
       menu:
         be_a_member: Fes-te soci
         chair_support: Apadrina una butaca
-        cinecitarios: Cinecitaris
+        cinecitarios: CineCitaris
 
     cinecitarios:
-      title: Cinecitaris
+      title: CineCitaris
       text: |
         És la persona que té com a principi vital contribuir a la causa de **CineCiutat** per damunt d’altres capritxos sigui quina sigui la seva naturalesa.
 
-        **Existeixen diferents categories de Cinecitaris, segons la seva aportació:**
+        **Existeixen diferents categories de CineCitaris, segons la seva aportació:**
 
       how_to_donate:
         title: ¿Com fer les aportacions?
         text: |
-          Les aportacions es realitzen per transferència bancària en aquest número de compte.
+          Las aportacions es fan online, clicant el botón “Fer donació”. També per transferència bancària en aquest número de compte.
 
           <span class="big">Caixa Colonya: 2056-0007-85-4102001438</span>
 
+          Els enviaments de samarretes es faran una vegada al mes.
           Pots recollir el teu obsequi a la taquilla de CineCiutat en horari comercial,
           amb el teu DNI i el justificant de pagament.
 
@@ -103,7 +106,7 @@ ca:
 
         Perquè a **CineCiutat**, els socis/es són els que fa el cinema, els que escullen i els que decideixen. Per això, cada soci pot dir sense complexos **"Jo tenc un cinema"**, perquè sense el seu suport, el cine deixaria d’existir; la seva aportació fa possible **CineCiutat**, perquè tots i cadascun dels socis/es tenen, efectivament, **un cinema: el seu, el que ells vulguin tenir**.
 
-        **Tu vols un cinema?** Vols contribuir a salvar la màgia, els fotogrames, les bandes sonores i els diàlegs que han marcat la teva vida? Idò, aquí tens el teu cinema: podràs dir davant de tothom i en veu alta **"Jo tenc un cinema"**, podràs sentir-te orgullòs de fer part d’aquesta iniciativa única.
+        **Tu vols un cinema?** Vols contribuir a salvar la màgia, els fotogrames, les bandes sonores i els diàlegs que han marcat la teva vida? Idò, aquí tens el teu cinema: podràs dir davant de tothom i en veu alta **"Jo tenc un cinema"**, podràs sentir-te orgullós de fer part d’aquesta iniciativa única.
 
       members_block:
         title: Fes-te soci/a
@@ -122,7 +125,7 @@ ca:
         link: Apradinar butaca
 
       cinecitarios_block:
-        title: Cinecitari
+        title: CineCitari
         text: |
            És la persona que té com a principi vital contribuir a la causa de **CineCiutat** per damunt d’altres capritxos sigui quina sigui la seva naturalesa.
 
@@ -145,3 +148,6 @@ ca:
 
       button_close: Tancar
       button_cineciutat: Anar a Cineciutat
+
+
+

@@ -52,25 +52,25 @@ es:
       menu:
         be_a_member: Hazte socio
         chair_support: Apadrina una butaca
-        cinecitarios: Cinecitarios
+        cinecitarios: CineCitarios
 
     cinecitarios:
-      title: Cinecitarios
+      title: CineCitarios
       text: |
         Dícese de aquella persona cuyos principios vitales pasan por
         contribuir a la causa de **CineCiutat** por encima otros caprichos sea cual
         sea su índole o naturaleza.
 
-        **Existen distintas categorías de Cinecitarios según su aportación:**
+        **Existen distintas categorías de CineCitarios según su aportación:**
 
       how_to_donate:
         title: ¿Cómo realizar las aportaciones?
         text: |
-          Las aportaciones se realizan por transferencia bancaria en el número de cuenta que
-          os indicamos a continuación.
+          Las aportaciones se realizan online, clicando en el botón “Hacer donación”. También se pueden hacer por transferencia bancaria en el número de cuenta que os indicamos a continuación.
 
           <span class="big">Caixa Colonya: 2056-0007-85-4102001438</span>
 
+          Los envíos se realizarán una vez al mes.
           Puedes acercarte a recoger tu obsequio a las taquillas de CineCiutat en horario comercial,
           con tu DNI y el justificante de pago.
 
@@ -145,7 +145,7 @@ es:
         link: Apradinar butaca
 
       cinecitarios_block:
-        title: Cinecitario
+        title: CineCitario
         text: |
           Dícese de aquella persona cuyos principios vitales pasan por contribuir a
           la causa de **CineCiutat** por encima de otros caprichos sea cual sea su índole o naturaleza.
@@ -167,6 +167,7 @@ es:
 
       button_close: Cerrar
       button_cineciutat: Ir a Cineciutat
+
 
 
 

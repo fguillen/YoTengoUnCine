@@ -29,11 +29,11 @@ class Donation < ActiveRecord::Base
 
   def set_ipn_params(params)
     self.payer_email = params[:payer_email]
-    self.payer_address_street = params[:address_street]
+    self.payer_address_street = params[:address_street].encode('UTF-8')
     self.payer_address_zip = params[:address_zip]
     self.payer_name = "#{params[:first_name]} #{params[:last_name]}"
     self.payer_address_country_code = params[:address_country_code]
-    self.payer_address_name = params[:address_name]
+    self.payer_address_name = params[:address_name].encode('UTF-8')
     self.payer_address_country = params[:address_country]
     self.payer_address_city = params[:address_city]
     self.payer_address_state = params[:address_state]

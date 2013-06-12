@@ -45,36 +45,37 @@ en:
   views:
     header:
       title: I’ve got a cinema
-      title_image: logo-yotengouncine-esp.png
+      title_image: logo-yotengouncine-eng.png
 
       menu:
         be_a_member: Become a member
         chair_support: Sponsor a seat
-        cinecitarios: Cineciutat paladins
+        cinecitarios: CineCiutat paladins
 
     cinecitarios:
-      title: Cineciutat paladins
+      title: CineCiutat paladins
       text: |
         One whose principles in life include contributing to **CineCiutat** cause
         and ignoring other whims, whatever their nature.
 
-        ** There are different categories of Cineciutat paladins according to their contribution:**
+        ** There are different categories of CineCiutat paladins according to their contribution:**
 
       how_to_donate:
         title: How to donate
         text: |
-          Donations can be made by bank transfer to the bank account specified below.
+          The donations can be made online clicking at the “Donation” button or can be made by bank transfer to the bank account specified below.
 
           <span class="big">Caixa Colonya: 2056-0007-85-4102001438</span>
 
-          Puedes acercarte a recoger tu obsequio a las taquillas de CineCiutat en horario comercial,
-          con tu DNI y el justificante de pago.
+          Shipments will be made once a month.
+          You can collect your reward at CineCiutat offices during working hours
+           with your ID and payment receipt.
 
       donation_link: Donate
 
     chair_support:
       title: Sponsor a seat
-      title_image: precio-butaca-esp.png
+      title_image: precio-butaca-eng.png
 
       text: |
         They are the silent partners who have stood by you in your adventures. They have seen you laugh, be scared, cry. Shouldn’t you show them a little gratitude?
@@ -121,7 +122,7 @@ en:
       chair_support_block:
         title: Sponsor a seat
         text: |
-          They are the silent partners who have stood by you in your adventures. They have seen you laugh, be scared, cry. Shouldn’t you show them a little gratitude?**
+          They are the silent partners who have stood by you in your adventures. They have seen you laugh, be scared, cry. **Shouldn’t you show them a little gratitude?**
 
         link: Sponsor a seat
 
@@ -133,7 +134,7 @@ en:
         link: Donate
 
     thanks_popup:
-      title_image: gracias-esp.png
+      title_image: gracias-eng.png
 
       text: |
         Thanks for proving your love for the cinema and help us continue with the
@@ -141,4 +142,6 @@ en:
 
       button_close: Close
       button_cineciutat: Go to Cineciutat
+
+
 

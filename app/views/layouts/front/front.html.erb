@@ -31,7 +31,7 @@
 
           <div class="social">
             <ul>
-              <li><%= link_to "facebook", "https://www.facebook.com/CineCiutat", :class => "zocial icon facebook" %></li>
+              <li><%= link_to "facebook", "https://www.facebook.com/CineCiutat", :class => "zocial icon facebook", :target => "_blank" %></li>
               <li><%= link_to "twitter", "https://twitter.com/CineCiutat", :class => "zocial icon twitter", :target => "_blank" %></li>
               <!-- <li><%= link_to "google", "#google", :class => "zocial icon google" %></li> -->
             </ul>
@@ -49,7 +49,6 @@
       </header>
 
       <div id="content" class="container">
-        <h1 class="page-title"><%= yield(:title) %></h1>
         <%= yield %>
       </div>
 

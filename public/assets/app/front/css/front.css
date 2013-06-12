@@ -298,18 +298,15 @@ img.image_decoration {
   text-align: center;
   float: left;
   width: 132px;
-  height: 160px;
+  height: 139px;
   padding-top: 21px;
-  box-sizing: border-box;
 }
 
 #cinecitarios .badges .badge_right {
   float: left;
-  width: 508px;
+  width: 455px;
   padding-top: 21px;
   padding-left: 30px;
-  padding-right: 20px;
-  box-sizing: border-box;
 }
 
 #cinecitarios .badges .price {

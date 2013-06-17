@@ -5,6 +5,7 @@
     <thead>
       <tr>
         <th class="span1">Id</th>
+        <th class="span1">Kind</th>
         <th class="span2">Created At</th>
         <th class="span2">Paid At</th>
         <th class="span3">Name</th>
@@ -16,6 +17,7 @@
       <% @donations.each do |donation| %>
         <tr data-id="<%= donation.id %>">
           <td><%= link_to donation.id, [:admin, donation] %></td>
+          <td><%= donation.kind %></td>
           <td><%= donation.created_at.to_s(:datetimedb) %></td>
           <td><%= donation.paid_at ? donation.paid_at.to_s(:datetimedb) : "-" %></td>
           <td><%= donation.payer_name %></td>

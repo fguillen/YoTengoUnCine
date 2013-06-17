@@ -2,7 +2,7 @@ class Admin::DonationsController < Admin::AdminController
   before_filter :require_admin_user
 
   def index
-    @donations = Donation.paginate(:page => params[:page], :per_page => 40).order("id desc")
+    @donations = Donation.paginate(:page => params[:page], :per_page => 100).order("id desc")
   end
 
   def show

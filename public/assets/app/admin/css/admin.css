@@ -24,3 +24,7 @@
 #grettings #user-name {
   text-align: right;
 }
+
+dl.dl-horizontal dd:after {
+  content: "\0000a0";
+}

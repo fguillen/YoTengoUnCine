@@ -1,0 +1,29 @@
+<% title "Donations" %>
+
+<div id="donations">
+  <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th class="span1">Id</th>
+        <th class="span2">Created At</th>
+        <th class="span2">Paid At</th>
+        <th class="span3">Name</th>
+        <th class="span3">Email</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @donations.each do |donation| %>
+        <tr data-id="<%= donation.id %>">
+          <td><%= link_to donation.id, [:admin, donation] %></td>
+          <td><%= donation.created_at.to_s(:datetimedb) %></td>
+          <td><%= donation.paid_at ? donation.paid_at.to_s(:datetimedb) : "-" %></td>
+          <td><%= donation.payer_name %></td>
+          <td><%= donation.payer_email %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <%= will_paginate(@donations, :renderer => BootstrapPagination::Rails, :class => "pagination pagination-right") %>
+</div>

@@ -13,7 +13,7 @@ module Admin::AdminHelper
   def admin_menu_class(actual_menu_name)
     menus = {
       :admin_users => ["/admin/admin_users.*"],
-      :items => ["/admin/items.*", "/admin"],
+      :donations => ["/admin/donations.*", "/admin"],
       :log_book_events => ["/admin/log_book_events"]
     }
 

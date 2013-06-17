@@ -1,4 +1,5 @@
 class Donation < ActiveRecord::Base
+  log_book
 
   KINDS = {
     :donation_5 => "donation_5",
@@ -9,6 +10,7 @@ class Donation < ActiveRecord::Base
   }
 
   attr_accessible :kind
+  attr_protected nil, :as => :admin
 
   validates :amount, :presence => true
   validates :kind, :presence => true, :inclusion => { :in => KINDS.values }

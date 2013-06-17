@@ -19,4 +19,10 @@ FactoryGirl.define do
   factory :log_book_event, :class => LogBook::Event  do
     text "Wadus Event"
   end
+
+  factory :donation do
+    amount 10
+    kind Donation::KINDS[:donation_5]
+    description "wadus description"
+  end
 end

@@ -34,4 +34,9 @@ class Admin::AdminController < ApplicationController
     redirect_to(session[:return_to] || default)
     session[:return_to] = nil
   end
+
+  def set_locale
+    I18n.locale = :es
+  end
+
 end

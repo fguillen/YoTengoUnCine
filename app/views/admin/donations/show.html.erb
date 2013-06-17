@@ -1,0 +1,37 @@
+<% title "Donation > #{@donation.id}" %>
+
+<dl class="dl-horizontal">
+  <dt>Id</dt><dd><%= @donation.id %></dd>
+  <dt>Created At</dt><dd><%= @donation.created_at.to_s(:datetimedb) %></dd>
+  <dt>Updated At</dt><dd><%= @donation.updated_at.to_s(:datetimedb) %></dd>
+  <dt>Confirmed At</dt><dd><%= @donation.confirmed_at ? @donation.confirmed_at.to_s(:datetimedb) : "-" %></dd>
+  <dt>Paid At</dt><dd><%= @donation.paid_at ? @donation.paid_at.to_s(:datetimedb) : "-" %></dd>
+  <dt>Name</dt><dd><%= @donation.name %></dd>
+  <dt>Email</dt><dd><%= @donation.email %></dd>
+  <dt>Token</dt><dd><%= @donation.token %></dd>
+  <dt>PayerId</dt><dd><%= @donation.payer_id %></dd>
+  <dt>Description</dt><dd><%= @donation.description %></dd>
+  <dt>Amount</dt><dd><%= number_to_currency(@donation.amount, :locale => :es) %></dd>
+  <dt>Kind</dt><dd><%= @donation.kind %></dd>
+  <dt>Transaction Id</dt><dd><%= @donation.transaction_id %></dd>
+  <dt>Chair Name</dt><dd><%= @donation.chair_name %></dd>
+</dl>
+
+<h3>Payer</h3>
+
+<dl class="dl-horizontal">
+  <dt>Name</dt><dd><%= @donation.payer_name %></dd>
+  <dt>Email</dt><dd><%= @donation.payer_email %></dd>
+  <dt>Address Street</dt><dd><%= @donation.payer_address_street %></dd>
+  <dt>Adress Zip</dt><dd><%= @donation.payer_address_zip %></dd>
+  <dt>Address Country Code</dt><dd><%= @donation.payer_address_country_code %></dd>
+  <dt>Address Name</dt><dd><%= @donation.payer_address_name %></dd>
+  <dt>Address Country</dt><dd><%= @donation.payer_address_country %></dd>
+  <dt>Address City</dt><dd><%= @donation.payer_address_city %></dd>
+  <dt>Address State</dt><dd><%= @donation.payer_address_state %></dd>
+</dl>
+
+<p>
+  <%= link_to "Edit", edit_admin_donation_path(@donation) %> |
+  <%= link_to "Destroy", [:admin, @donation], :confirm => "Are you sure?", :method => :delete %>
+</p>

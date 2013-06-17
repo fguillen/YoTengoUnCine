@@ -13,7 +13,7 @@ YoTengoUnCine::Application.routes.draw do
   end
 
   namespace :admin do
-    root :to => "items#index"
+    root :to => "donations#index"
 
     match "login" => "admin_user_sessions#new", :as => :login
     match "logout" => "admin_user_sessions#destroy", :as => :logout
@@ -25,6 +25,7 @@ YoTengoUnCine::Application.routes.draw do
 
     resources :log_book_events, :only => [:index]
     resources :admin_users
+    resources :donations
     resources :items do
       post :reorder, :on => :collection
 

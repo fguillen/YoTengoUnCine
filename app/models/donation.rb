@@ -69,7 +69,7 @@ class Donation < ActiveRecord::Base
       donation.description = I18n.t("donations.donation_5.description")
 
     when Donation::KINDS[:donation_15]
-      donation.amount = 5
+      donation.amount = 15
       donation.description = I18n.t("donations.donation_15.description")
 
     when Donation::KINDS[:donation_30]

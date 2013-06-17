@@ -16,6 +16,8 @@ class Donation < ActiveRecord::Base
   validates :kind, :presence => true, :inclusion => { :in => KINDS.values }
   validates :description, :presence => true
 
+  scope :paid, where("paid_at is not null")
+
   def confirm(ipn_url)
     raise Exception, "Donation [#{id}] already confirmed" if confirmed?
 

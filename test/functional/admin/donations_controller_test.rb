@@ -6,8 +6,9 @@ class Admin::DonationsControllerTest < ActionController::TestCase
   end
 
   def test_index
-    donation_1 = FactoryGirl.create(:donation)
-    donation_2 = FactoryGirl.create(:donation)
+    donation_1 = FactoryGirl.create(:donation, :paid_at => Time.now)
+    donation_2 = FactoryGirl.create(:donation, :paid_at => Time.now)
+    donation_3 = FactoryGirl.create(:donation)
 
     get :index
 

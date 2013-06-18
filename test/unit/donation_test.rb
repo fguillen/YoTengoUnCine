@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require "test_helper"
 
 class DonationTest < ActiveSupport::TestCase
@@ -113,5 +115,58 @@ class DonationTest < ActiveSupport::TestCase
     assert_equal(Donation::KINDS[:chair_support], donation.kind)
     assert_equal(180, donation.amount)
     assert_equal(I18n.t("donations.chair_support.description"), donation.description)
+  end
+
+  def test_set_ipn_params_invalid_byte_sequence_error
+    params={
+      "mc_gross" => "5.00",
+      "protection_eligibility" => "Eligible",
+      "address_status" => "unconfirmed",
+      "payer_id" => "NN2THN5NFSXPQ",
+      "tax" => "0.00",
+      "address_street" => "c./ XXX n\xBA 2, XXX",
+      "payment_date" => "02:53:50 Jun 07, 2013 PDT",
+      "payment_status" => "Completed",
+      "charset" => "windows-1252",
+      "address_zip" => "07011",
+      "first_name" => "Fco. XXXX",
+      "mc_fee" => "0.52",
+      "address_country_code" => "ES",
+      "address_name" => "Fco. XXXX Pach\xF3n Paz",
+      "notify_version" => "3.7",
+      "custom" => "",
+      "payer_status" => "verified",
+      "address_country" => "Spain",
+      "address_city" => "Palma de Mallorca",
+      "quantity" => "1",
+      "verify_sign" => "XXX-HDRwJ0.ML.g",
+      "payer_email" => "xxx@gmail.com",
+      "txn_id" => "7VU770913E683421X",
+      "payment_type" => "instant",
+      "last_name" => "Pach\xF3n Paz",
+      "address_state" => "Islas Baleares",
+      "receiver_email" => "xxx@cineciutat.org",
+      "payment_fee" => "",
+      "receiver_id" => "DEQLBWYB9QDBS",
+      "txn_type" => "express_checkout",
+      "item_name" => "",
+      "mc_currency" => "EUR",
+      "item_number" => "",
+      "residence_country" => "ES",
+      "handling_amount" => "0.00",
+      "transaction_subject" => "",
+      "payment_gross" => "",
+      "shipping" => "0.00",
+      "ipn_track_id" => "978c66d7d13f5",
+      "id" => "6"
+    }.symbolize_keys
+
+    donation = FactoryGirl.create(:donation)
+    donation.set_ipn_params(params)
+
+    donation.reload
+    assert_equal("c./ XXX n\xBA 2, XXX", donation.payer_address_street)
+    assert_equal("Fco. XXXX Pach\xF3n Paz", donation.payer_address_name)
+    assert_equal("Fco. XXXX Pach\xF3n Paz", donation.payer_name)
   end
 end

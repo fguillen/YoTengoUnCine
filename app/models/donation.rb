@@ -32,6 +32,8 @@ class Donation < ActiveRecord::Base
   end
 
   def set_ipn_params(params)
+    params = Donation.clean_params_encoding(params)
+
     self.payer_email = params[:payer_email]
     self.payer_address_street = params[:address_street]
     self.payer_address_zip = params[:address_zip]
@@ -93,5 +95,15 @@ class Donation < ActiveRecord::Base
     end
 
     donation
+  end
+
+  def self.clean_params_encoding(params)
+    _params = params.dup
+
+    _params.each do |k, v|
+      params[k] = v.encode!('UTF-8', 'UTF-8', :invalid => :replace)
+    end
+
+    _params
   end
 end

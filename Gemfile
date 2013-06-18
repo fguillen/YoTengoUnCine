@@ -35,4 +35,5 @@ group :test do
   gem "delorean"
   gem "capybara"
   gem "database_cleaner"
+  gem "fakeweb"
 end

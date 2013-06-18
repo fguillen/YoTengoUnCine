@@ -26,12 +26,5 @@ YoTengoUnCine::Application.routes.draw do
     resources :log_book_events, :only => [:index]
     resources :admin_users
     resources :donations
-    resources :items do
-      post :reorder, :on => :collection
-
-      resources :pics, :only => [:index, :create, :destroy] do
-        post :reorder, :on => :collection
-      end
-    end
   end
 end

@@ -1,5 +1,3 @@
-puts "XXX: PaypalWrapper"
-
 require "uri"
 require "cgi"
 
@@ -56,12 +54,6 @@ class PaypalWrapper
       )
 
     do_express_checkout_payment_response = client.do_express_checkout_payment(opts)
-
-    puts "XXX: do_express_checkout_payment_response: #{do_express_checkout_payment_response.inspect}"
-
-    puts "XXX 1: #{do_express_checkout_payment_response.DoExpressCheckoutPaymentResponseDetails.inspect}"
-    puts "XXX 2: #{do_express_checkout_payment_response.FMFDetails.inspect}"
-
 
     raise Exception, "ERROR in payment: #{do_express_checkout_payment_response.Errors}" if !do_express_checkout_payment_response.success?
   end

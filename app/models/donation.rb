@@ -64,8 +64,6 @@ class Donation < ActiveRecord::Base
   end
 
   def self.build_by_kind(kind)
-    knid = kind.to_s
-
     donation = Donation.new
     donation.kind = kind
 

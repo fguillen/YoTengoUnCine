@@ -178,17 +178,27 @@ a:hover {
   float: left;
 }
 
-#footer .menu {
-  font-size: 8px;
+#footer .contributors h4 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+#footer .contributors {
+  font-size: 12px;
   color: #666;
   float: right;
 }
 
-#footer .menu ul {
+#footer .contributors a:hover{
+  text-decoration: none;
+}
+
+#footer .contributors ul {
   display: inline;
 }
 
-#footer .menu li {
+#footer .contributors li {
   display: inline;
   font-family: "Arbutus Slab", serif;
   font-size: 10px;
@@ -217,7 +227,7 @@ a:hover {
 #home_menu .item {
   float: left;
   width: 326px;
-  height: 284px;
+  height: 290px;
   padding: 120px 80px 10px 0px;
   box-sizing: border-box;
   position: relative;

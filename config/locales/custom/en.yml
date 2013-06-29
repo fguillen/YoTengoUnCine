@@ -43,6 +43,9 @@ en:
       description: Sponsor a CineCiutat seat for 180€ a year
 
   views:
+    shared:
+      filmin_collaboration: With the colaboration of ![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)
+
     header:
       title: I’ve got a cinema
       title_image: logo-yotengouncine-eng.png

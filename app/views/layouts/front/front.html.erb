@@ -56,12 +56,29 @@
         <div class="container">
           <div class="copyright">#Yotengouncine 2013</div>
 
-          <div class="menu">
-            Colaboradores:
+          <div class="contributors">
+            <h4>Colaboradores:</h4>
             <ul>
-              <li><%= link_to "Sendos Creaciones", "http://sendos.net/", :target => "_blank" %></li>
-              <li><%= link_to "MkLab Ideas", "http://mklab.es/", :target => "_blank" %></li>
-              <li><%= link_to "fguillen Desarrollo", "http://fernandoguillen.info", :target => "_blank" %></li>
+              <li>
+                <%= link_to "http://sendos.net/", :target => "_blank" do %>
+                  <%= image_tag "/assets/app/front/img/footer-logo-sendos.png" %>
+                <% end %>
+              </li>
+              <li>
+                <%= link_to "http://fernandoguillen.info", :target => "_blank" do %>
+                  <%= image_tag "/assets/app/front/img/footer-logo-fguillen.png" %>
+                <% end %>
+              </li>
+              <li>
+                <%= link_to "http://mklab.es/", :target => "_blank" do %>
+                  <%= image_tag "/assets/app/front/img/footer-logo-mklab.png" %>
+                <% end %>
+              </li>
+              <li>
+                <%= link_to "http://filmin.es", :target => "_blank" do %>
+                  <%= image_tag "/assets/app/front/img/footer-logo-filmin.png" %>
+                <% end %>
+              </li>
             </ul>
           </div>
 

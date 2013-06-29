@@ -44,6 +44,9 @@ ca:
       description: Apadrinar una butaca CineCiutat 180€/any
 
   views:
+    shared:
+      filmin_collaboration: Amb la col·laboració de ![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)
+
     header:
       title: JoTencUnCinema
       title_image: logo-yotengouncine-cat.png

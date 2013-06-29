@@ -19,7 +19,6 @@ gem "acts-as-taggable-on"
 gem "log_book", :git => "git@github.com:fguillen/LogBook.git"
 gem "style_palette", :git => "git://github.com/fguillen/StylePalette.git"
 gem "paypal-sdk-merchant"
-gem "yaml_db"
 gem "mysql2"
 
 group :development do

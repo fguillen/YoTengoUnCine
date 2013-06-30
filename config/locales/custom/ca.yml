@@ -45,7 +45,8 @@ ca:
 
   views:
     shared:
-      filmin_collaboration: Amb la col·laboració de ![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)
+      filmin_collaboration: Amb la col·laboració de <a href="http://filmin.com" target="_blank">![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)</a>
+      filmin_collaboration_big: <span>Amb la col·laboració de</span> <a href="http://filmin.com" target="_blank">![Filmin](/assets/app/front/img/cinecitarios-logo-filmin.png)</a>
 
     header:
       title: JoTencUnCinema
@@ -61,7 +62,7 @@ ca:
       text: |
         És la persona que té com a principi vital contribuir a la causa de **CineCiutat** per damunt d’altres capritxos sigui quina sigui la seva naturalesa.
 
-        **Existeixen diferents categories de CineCitaris, segons la seva aportació:**
+        **Categories segons la seva aportació:**
 
       how_to_donate:
         title: ¿Com fer les aportacions?

@@ -46,7 +46,8 @@ es:
 
   views:
     shared:
-      filmin_collaboration: Con la colaboración de ![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)
+      filmin_collaboration: Con la colaboración de <a href="http://filmin.com" target="_blank">![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)</a>
+      filmin_collaboration_big: <span>Con la colaboración de</span> <a href="http://filmin.com" target="_blank">![Filmin](/assets/app/front/img/cinecitarios-logo-filmin.png)</a>
 
     header:
       title: YoTengoUnCine
@@ -64,7 +65,7 @@ es:
         contribuir a la causa de **CineCiutat** por encima otros caprichos sea cual
         sea su índole o naturaleza.
 
-        **Existen distintas categorías de CineCitarios según su aportación:**
+        **Categorías según su aportación:**
 
       how_to_donate:
         title: ¿Cómo realizar las aportaciones?

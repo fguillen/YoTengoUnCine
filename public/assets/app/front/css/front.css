@@ -281,6 +281,16 @@ a:hover {
   position: relative;
 }
 
+#cinecitarios #filmin_contribution {
+  text-align: right;
+  margin-top: -33px;
+  margin-right: 12px;
+}
+
+#cinecitarios #filmin_contribution span {
+  vertical-align: 8px;
+}
+
 img.image_decoration {
   width: 120px;
   position: absolute;

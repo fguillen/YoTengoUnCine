@@ -44,7 +44,8 @@ en:
 
   views:
     shared:
-      filmin_collaboration: With the colaboration of ![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)
+      filmin_collaboration: With the colaboration of <a href="http://filmin.com" target="_blank">![Filmin](/assets/app/front/img/prefooter-logo-filmin.png)</a>
+      filmin_collaboration_big: <span>With the colaboration of</span> <a href="http://filmin.com" target="_blank">![Filmin](/assets/app/front/img/cinecitarios-logo-filmin.png)</a>
 
     header:
       title: I’ve got a cinema
@@ -61,7 +62,7 @@ en:
         One whose principles in life include contributing to **CineCiutat** cause
         and ignoring other whims, whatever their nature.
 
-        ** There are different categories of CineCiutat paladins according to their contribution:**
+        **Categories according to their contribution:**
 
       how_to_donate:
         title: How to donate

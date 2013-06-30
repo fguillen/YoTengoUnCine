@@ -9,6 +9,8 @@
 
   <%= t("views.cinecitarios.text").to_md %>
 
+  <div id="filmin_contribution"><%= t("views.shared.filmin_collaboration_big").to_md %></div>
+
   <ul class="badges">
     <% [5, 15, 30, 50].each do |donation_amount| %>
       <li>
@@ -35,8 +37,6 @@
       </li>
     <% end %>
   </ul>
-
-  <div style="text-align:right"><%= t("views.shared.filmin_collaboration").to_md %></div>
 
   <div class="clear"></div>
 

@@ -4,13 +4,16 @@
   <%= t("views.home.text_1").to_md %>
 
   <div id="player">
-    <iframe
-      width="640"
-      height="390"
-      src="<%= t("views.home.video_url") %>"
-      frameborder="0"
-      allowfullscreen></iframe>
+    <ul id="slider">
+      <li class="panel1"><iframe width="640" height="390" src="<%= t("views.home.video_url_1") %>" frameborder="0" allowfullscreen></iframe></iframe></li>
+      <li class="panel2"><iframe width="640" height="390" src="<%= t("views.home.video_url_2") %>" frameborder="0" allowfullscreen></iframe></iframe></li>
+      <li class="panel3"><iframe width="640" height="390" src="<%= t("views.home.video_url_3") %>" frameborder="0" allowfullscreen></iframe></iframe></li>
+      <li class="panel4"><iframe width="640" height="390" src="<%= t("views.home.video_url_4") %>" frameborder="0" allowfullscreen></iframe></iframe></li>
+      <li class="panel5"><iframe width="640" height="390" src="<%= t("views.home.video_url_5") %>" frameborder="0" allowfullscreen></iframe></iframe></li>
+    </ul>
   </div>
+
+
 
   <%= t("views.home.text_2").to_md %>
 </div>
@@ -72,3 +75,28 @@
     jQuery.facebox({ div: '#thanks' });
   </script>
 <% end %>
+
+<script>
+  $(function(){
+    $('#slider')
+      .anythingSlider({
+        autoPlay            : true,
+        resizeContents      : true,
+        addWmodeToObject    : 'opaque',
+        theme : 'mini-light',
+        navigationFormatter : function(index, panel){
+          return ['1', '2', '3', '4', '5'][index - 1];
+        }
+      })
+
+      .anythingSliderVideo({
+        videoId : 'asvideo',
+        youtubeAutoLoad : true,
+        youtubeParams: {
+          modestbranding : 1,
+          iv_load_policy : 3,
+          fs : 1
+        }
+      });
+  });
+</script>

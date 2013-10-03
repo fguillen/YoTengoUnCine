@@ -93,7 +93,11 @@ ca:
       form_placeholder: Nom del padrí/madrina
 
     home:
-      video_url: http://www.youtube.com/embed/6znvxs81sBI
+      video_url_1: //www.youtube.com/embed/MKGk3lyAfLU
+      video_url_2: //www.youtube.com/embed/wF6OzdluD0g
+      video_url_3: //www.youtube.com/embed/HL1TeseEOO4
+      video_url_4: //www.youtube.com/embed/g8Zmjndpx_M
+      video_url_5: //www.youtube.com/embed/6znvxs81sBI
 
       text_1: |
         És possible que no viatgis mai a les Seychelles. Igual no sortiràs de copes amb cracs de l’esport, ni viuràs en mansions amb 30 chiuahues, però… **Tens un cinema!!!**

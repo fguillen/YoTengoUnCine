@@ -93,7 +93,12 @@ en:
       form_placeholder: Sponsor’s name
 
     home:
-      video_url: http://www.youtube.com/embed/UOixsGlB1tA
+      video_url_1: //www.youtube.com/embed/WHMbm977QFA
+      video_url_2: //www.youtube.com/embed/vjgfXbew9j8
+      video_url_3: //www.youtube.com/embed/BTSPIibJQ3U
+      video_url_4: //www.youtube.com/embed/B0f4AWdWb-8
+      video_url_5: //www.youtube.com/embed/UOixsGlB1tA
+
       text_1: |
         Maybe you will never travel to the Seychelles. Or will go for a drink with sport stars or live in mansions with 30 Chihuahuas but... **You’ve got a cinema!!**
 

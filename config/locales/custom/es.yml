@@ -100,7 +100,11 @@ es:
       form_placeholder: Nombre del padrino
 
     home:
-      video_url: http://www.youtube.com/embed/nNfcJanuc_8
+      video_url_1: //www.youtube.com/embed/Z0xFxh5oel8
+      video_url_2: //www.youtube.com/embed/SclzM9Dg6dc
+      video_url_3: //www.youtube.com/embed/OAIf0MOPHr0
+      video_url_4: //www.youtube.com/embed/zYWanXXU9DU
+      video_url_5: //www.youtube.com/embed/nNfcJanuc_8
 
       text_1: |
         Quizás nunca viajes a las Seychelles. Igual tampoco saldrás de copas con cracks del deporte, ni

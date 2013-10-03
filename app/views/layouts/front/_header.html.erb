@@ -23,11 +23,17 @@
 <%= javascript_include_tag "/assets/vendor/facebox/facebox.js" %>
 <%= stylesheet_link_tag "/assets/vendor/facebox/facebox.css", :media => "all" %>
 
+<!-- Anything Slider -->
+<%= javascript_include_tag "/assets/vendor/anything_slider/js/swfobject.js" %>
+<%= javascript_include_tag "/assets/vendor/anything_slider/js/jquery.anythingslider.js" %>
+<%= javascript_include_tag "/assets/vendor/anything_slider/js/jquery.anythingslider.video.js" %>
+<%= stylesheet_link_tag "/assets/vendor/anything_slider/themes/css/theme-mini-light.css", :media => "all" %>
+<!-- <link rel="stylesheet" href="themes/css/wrappers.css"> -->
+
 <!-- application -->
 <%= stylesheet_link_tag "/assets/app/front/css/reset.css", :media => "all" %>
 <%= stylesheet_link_tag "/assets/app/front/css/front.css", :media => "all" %>
 <%= stylesheet_link_tag "/assets/app/front/css/buttons.css", :media => "all" %>
-
 
 <%= csrf_meta_tag %>
 <%= yield(:head) %>
